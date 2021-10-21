@@ -1,0 +1,127 @@
+* {
+    box-sizing:content-box;
+}
+
+.hover-me:hover{
+    background-color: transparent;
+}
+
+header {
+    background-color: transparent;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+nav {
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 0%;
+    width: 100%;
+    background-color: transparent;
+    height: 1655px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: transparent;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: transparent;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+body {
+    background-image: url(https://media.giphy.com/media/xT9IgwWOpd4sJVuDe0/source.gif?cid=790b7611755af9f2655f4c6c9abc761e25b8d28cfd7f7cc4&rid=source.gif&ct=g);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+a:active{
+    color: red;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+p {
+    margin: 10px;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h5 {
+    font-size: larger;
+    font-family: fantasy;
+    color: black;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: lighter;
+}
