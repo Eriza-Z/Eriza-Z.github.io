@@ -14,18 +14,33 @@ header {
     color: white;
 }
 
-nav {
-    float: left;
-    width: auto;
+.nav{
+    height: 25px;
+    background: transparent;
+  }
+  .nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+  }
+  .nav ul{
+    position: absolute;
+    right: 5px;
+  }
+  .nav ul li{
+    display: inline-block;
+  }
+  .nav ul li a{
+    color: black;
     height: auto;
-    background-color: gray;
-    padding: 15px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+  }
 
 article {
     float: left;
@@ -57,28 +72,28 @@ footer {
 }
 
 body {
-    background-image: url(https://wallpapercave.com/uwp/uwp429630.jpeg);
+    background-image: url("../Web/Background/Mountain\ Sketch.jpg");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 a:active{
-    color: white;
+    color: black;
 }
 
 a:link{
-    color: white;
+    color: black;
 }
 
 a:visited{
-    color: white;
+    color: black;
 }
 
 p {
     margin: 10px;
     font-size: larger;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
