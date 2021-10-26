@@ -140,3 +140,9 @@ h6 {
     color: black;
     font-weight: lighter;
 }
+.connectwithme .connect-content h1{
+    color: black;
+}
+.connectwithme .connect-content p{
+    color: red;
+}
