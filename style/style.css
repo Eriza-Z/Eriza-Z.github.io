@@ -15,8 +15,8 @@
 }
 
 .spoiler1 {
-    color: gray;
-    background-color: gray;
+    color: transparent;
+    background-color: transparent;
 }
 .spoiler1:hover {
     color: transparent;
