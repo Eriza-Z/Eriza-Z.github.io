@@ -95,15 +95,15 @@ body {
 }
 
 a:active{
-    color: black;
+    color: red;
 }
 
 a:link{
-    color: black;
+    color: red;
 }
 
 a:visited{
-    color: black;
+    color: red;
 }
 
 p {
@@ -124,7 +124,7 @@ h1 {
 h2 {
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: red;
     font-weight: bolder;
 }
 
