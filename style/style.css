@@ -187,3 +187,24 @@ h6 {
 .connectwithme .connect-content p{
     color: red;
 }
+
+.button {
+    padding: 10px 24px;
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, alpha.24);
+}
+
+button:active {
+    background-color: darkblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(24);
+}
