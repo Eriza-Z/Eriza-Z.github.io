@@ -23,6 +23,12 @@
   padding: 0 20px;
 }
 
+.penghujung {
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+}
+
 .bottom {
   background-color: transparent;
   float: right;
@@ -120,14 +126,6 @@ header {
     font-weight: bold;
     font-stretch: expanded;
   }
-
-article {
-    float: left;
-    padding: 0%;
-    width: 100%;
-    background-color: transparent;
-    height: 1655px;
-}
 
 section::after {
     content: "";
