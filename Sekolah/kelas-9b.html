@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Nggak tahu, lebih gabut lagi...
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image.gif" href="Image/Sekolah/WhatsApp Image 2022-02-11 at 08.53.17.jpeg">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+  <div class="home">
+    <!--Navbar-->
+    <div style="overflow:auto">
+      <ul>
+        <li><a href="https://eriza-z.github.io/">Home</a></li>
+        <li><a href="https://eriza-z.github.io/about">About</a></li>
+        <li><a href="https://eriza-z.github.io/connect">Connect</a></li>
+        <li><a href="https://eriza-z.github.io/page/main">Page</a></li>
+      </ul>
+    </div>
+    <h1>
+      Kelas 9B.
+    </h1>
+    <h3>
+      Kelas 9B SMP Maha Bodhi... Kami adalah sebuah tim, kelompok, dan keluarga yang dimana sebagian besar dari kami
+      berasal dari kelas 7D.<br>
+      Kelas kami terkenal dengan kelas paling ribut diantara angkatan kelas 9 SMP Maha Bodhi (Dan mungkin semua angkatan
+      di SMP Maha Bodhi (Maaf teman sekelasku, tapi aku tidak akan berbohong disini.)<br>
+      Kami juga mengambil beberapa foto untuk kenang-kenangan dan menjadi foto profil dari Group WA.<br>
+      Seperti 3 foto berikut ini : <br>
+      <br>
+    </h3>
+    <div class="slideshow-container">
+      <div class="mySlides1">
+        <img src="Image/Sekolah/WhatsApp Image 2022-02-11 at 08.53.15.jpeg" style="max-width: 95%; max-height: 85%;">
+      </div>
+
+      <div class="mySlides1">
+        <img src="Image/Sekolah/WhatsApp Image 2022-02-11 at 08.53.16.jpeg" style="max-width: 95%; max-height: 85%;">
+      </div>
+
+      <div class="mySlides1">
+        <img src="Image/Sekolah/WhatsApp Image 2022-02-11 at 08.53.17.jpeg" style="max-width: 95%; max-height: 85%;">
+      </div>
+
+      <div class="mySlides1">
+        <img src="Image/Sekolah/WhatsApp Image 2022-02-11 at 08.53.18.jpeg" style="max-width: 95%; max-height: 85%;">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    <br>
+    <br>
+    <h6>
+      Disini saya juga mewujudkan keinginan teman saya untuk membuat List Anak Top Dikelas "Paling Bising"<br>
+      Mulai dari nomor 1 :<br>
+      Jesen Fernando (Dia sendiri yang memintanya)<br>
+      Agus<br>
+      Andre (Kocak nih orang).<br>
+    </h6>
+    <h3>
+      Dan saya juga disini memiliki beberapa foto yang saya ambil ketika didalam dan diluar kelas.<br>
+    </h3>
+    <br>
+    <div class="slideshow-container">
+      <div class="mySlides2">
+        <img src="Image/Sekolah/IMG_20220112_114939.jpg" style="max-width: 100%; max-height: 100%;">
+      </div>
+
+      <div class="mySlides2">
+        <img src="Image/Sekolah/IMG_20220119_091935.jpg" style="max-width: 100%; max-height: 100%;">
+      </div>
+
+      <div class="mySlides2">
+        <img src="Image/Sekolah/IMG_20220119_092004.jpg" style="max-width: 100%; max-height: 100%;">
+      </div>
+
+      <div class="mySlides2">
+        <img src="Image/Sekolah/IMG_20220119_112753.jpg" style="max-width: 100%; max-height: 100%;">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+  </div>
+
+  <script>
+    var slideIndex = [1, 1];
+    var slideId = ["mySlides1", "mySlides2"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+
+    function showSlides(n, no) {
+      var i;
+      var x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) { slideIndex[no] = 1 }
+      if (n < 1) { slideIndex[no] = x.length }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex[no] - 1].style.display = "block";
+    }
+  </script>
+  </div>
+  </div>
+</body>
+
+</html>
