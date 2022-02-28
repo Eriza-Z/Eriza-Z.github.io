@@ -328,3 +328,10 @@ button:active {
     box-shadow: 0 5px #666;
     transform: translateY(24);
 }
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
