@@ -335,3 +335,38 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+
+.Profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 10%;
+  max-height: auto;
+  max-width: 175px;
+
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  padding: 20px;
+  font-size: smaller;
+  color:white
+}
+
+.link {
+  text-align: center;
+  border: 1px solid #7780a8;
+  border-width: 1.1px;
+
+  min-width: 25px;
+  max-width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 40px;
+
+  font-size: smaller;
+}
