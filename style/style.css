@@ -350,7 +350,7 @@ details > summary::-webkit-details-marker {
 
 .name {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-size: smaller;
   color:white
 }
@@ -362,6 +362,7 @@ details > summary::-webkit-details-marker {
 
   min-width: 25px;
   max-width: 290px;
+  max
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -369,4 +370,5 @@ details > summary::-webkit-details-marker {
   border-radius: 40px;
 
   font-size: smaller;
+  background: gray
 }
