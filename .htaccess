@@ -1,5 +1,5 @@
-#remove html file extension https://eriza-z.netlify.app/index.html
-# to https://eriza-z.netlify.app/index
+#remove html file extension https://eriza-z.github.io/index.html or https://erizazg.my.id/index.html
+# to https://eriza-z.github.io/index or https://erizazg.my.id/index
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
