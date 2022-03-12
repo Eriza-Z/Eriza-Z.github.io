@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  overflow-y: scroll;
+}
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}
+.hero {
+  background-color: #a499b3;
+}
+#connect {
+  background-color: #534B62;
+}
+#contact {
+  background-color: #463239;
+}
+#contact h2 {
+  color:black;
+}
+footer {
+  background-color:#a499b3
+}
+section {
+  padding-top: 4.5rem
+}

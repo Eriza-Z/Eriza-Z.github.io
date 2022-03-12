@@ -113,22 +113,6 @@ img {vertical-align: middle;}
   padding: 0 20px;
 }
 
-.penghujung {
-  float: left;
-  width: 100%;
-  padding: 0 20px;
-}
-
-.bottom {
-  background-color: transparent;
-  float: right;
-  width: 35%;
-  padding: 100px;
-  margin-top: 15px;
-  text-align: center;
-  position: fixed;
-}
-
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .menu, .main, .right {
@@ -171,25 +155,6 @@ img {vertical-align: middle;}
 .spoiler:hover {
     background-color: transparent;
     color: white
-}
-
-.spoiler1 {
-    color: transparent;
-    background-color: transparent;
-}
-.spoiler1:hover {
-    color: transparent;
-    background-color: transparent;
-}
-
-.spoiler2 {
-  color: transparent;
-  background-color: transparent;
-}
-
-.spoiler2:hover {
-  color: white;
-  background-color: transparent;
 }
 
 header {
@@ -376,28 +341,33 @@ details > summary::-webkit-details-marker {
   margin-right: auto;
   border-radius: 40px;
   font-size: smaller;
-  background: rgb(238,174,202);
-  background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
 
-.link1 {
-  text-align: center;
-  border: 1px solid #7780a8;
-  border-width: 0.5px;
-  min-width: 25px;
-  max-width: 290px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 40px;
-  font-size: smaller;
-  background: rgb(255,48,0);
-  background: rgb(34,193,195);
-  background: -moz-linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+.pricing-box {
+  position: relative;
+  background-color:slateblue;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.pricing-box::before {
+  content: 'THE PRICE';
+  position: top;
+  top: 30px;
+  color:#f1f1f1;
+  font-size: 4em
+  font-weight: bold;
+  font-style: italic;
+  opacity: 0;
+}
+
+.pricing-box:hover::before {
+  left: 50%;
+  transform: translate(50%, 0);
+  opacity: 1;
+}
+
+.profile {
+  padding-top: 2rem;
+  background-color: #e2edff
 }
