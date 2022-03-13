@@ -154,20 +154,30 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form>
+          <div class="alert alert-success alert-dismissible fade show d-none form-alert" role="alert">
+            <strong>Terimakasih telah mengirimkan pesan,</strong> pesan anda sudah saya terima.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <form name="erizazg-contact-form">
             <div class="mb-3">
               <label for="name" class="form-label">Nama</label>
-              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="name" aria-describedby="nama" name="nama">
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email">
+              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
             </div>
             <div class="mb-3">
               <label for="pesan" class="form-label">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3"></textarea>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
+            <!-- Normal Button -->
+            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+            <!-- Loading Button -->
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
           </form>
         </div>
       </div>
@@ -193,6 +203,33 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <script src="scripts/scrollspy.js"></script>
+  <!-- Google Form Script -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwDFQ3u2CaMDH4iwjTxQiO-wQTMkrJAeEWfsy7pi7rPYHaSdWo1HCGFIdj_sksrGp8flA/exec'
+    const form = document.forms['erizazg-contact-form'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const formAlert = document.querySelector('.form-alert');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      // Ketika di klik, tampilkan tombol loading.
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          // Ketika terkirim, tampilkan tombol kirim
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          // Alert
+          formAlert.classList.toggle('d-none');
+          // For Resetting The Form
+          form.reset()
+          console.log('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 
 </html>
