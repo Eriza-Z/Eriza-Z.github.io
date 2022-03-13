@@ -17,7 +17,7 @@
   <!-- Website Thingy -->
   <title>Eriza Zehezkiel Gracia</title>
   <meta name="keywords" content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia">
-  <meta name="description" content="Personal Website of Eriza Zehezkiel Gracia">
+  <meta name="description" content="Personal Website of Eriza Zehezkiel Gracia where this Web page Layout is like a Portofolio Website Page Layout">
   <meta name="author" content="Eriza Zehezkiel Gracia">
   <meta name=”robots” content=”noindex,nofollow”>
   <meta name="google-site-verification" content="7BvZDJ7oLBfQwY_W56VsMOv8_WLty2vY31Sq1gmSQik" />
@@ -75,18 +75,10 @@
       </div>
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-sm-4">
-          <p>Nama : Eriza Zehezkiel Gracia<br>
-            Kebiasaan : Bermain Game, melakukan coding untuk hal yang tidak penting, Menonton YouTube, dan Tidur....
-          </p>
+          <p class="about-content-0"></p>
         </div>
         <div class="col-sm-4">
-          <p>
-            Suka : Anime Shonen & Shoujo Romance, Anime Slice of Life, Action Film, Racing Game, Fast-Paced FPS Game,
-            dan beberapa Tabletop Game.
-            <br>
-            Tidak suka : <span style="font-weight: bold;"> Sifat rasis, fasis, anarkis, dan supremasi terhadap suatu
-              suku, ras, agama dan antargolongan</span>
-          </p>
+          <p class="about-content-1"></p>
         </div>
       </div>
     </div>
@@ -127,7 +119,7 @@
               src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               class="card-img-top" alt="Social Media" style="max-height:300px; max-width: 575px;">
             <div class="card-body">
-              <p class="card-text text-center">Game :<br>
+              <p class="card-text text-center">Game Account :<br>
                 <a href="https://www.origin.com/idn/en-us/profile/ERZXTGS" target="new">Origin</a><br>
                 <a href="https://ubisoftconnect.com/en-GB/profile/ErizaZGracia" target="new">Ubisoft
                   Connect</a><br>
@@ -216,6 +208,10 @@
   <script>
     gsap.registerPlugin(TextPlugin);
     gsap.to('.lead', { duration: 1.75, delay: 1.25, text: 'Pelajar & Pencinta Game' });
+    gsap.to('.about-content-0', { duration: 3.25, delay: 5, text: 'Nama : Eriza Zehezkiel Gracia<br>Kebiasaan : Bermain Game, melakukan coding untuk hal yang tidak penting, Menonton YouTube, dan Tidur....' })
+    gsap.to('.about-content-1', {
+      duration: 5.25, delay: 5, text: 'Suka : Anime Shonen & Shoujo Romance, Anime Slice of Life, Action Film, Racing Game, Fast-Paced FPS Game, dan beberapa Tabletop Game.<br>Tidak suka: Sifat rasis, fasis, anarkis, dan supremasi terhadap suatu suku, ras, agama dan antargolongan.'
+    })
     gsap.from('.hero img', { duration: 1.5, rotateX: 180, rotateY: 360, opacity: 0 });
     gsap.from('.navbar', { duration: 1.25, y: -150, opacity: 0 })
     gsap.from('.display-4', { duration: 1.5, x: -150, opacity: 0, delay: 0.75 })
