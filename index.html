@@ -118,7 +118,8 @@
         <div class="col-sm-6 mb-3 mt-3" data-aos="flip-right" data-aos-duration="1050">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="Social Media" style="max-width: 575px; max-height: 300px"> 
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              class="card-img-top" alt="Social Media" style="max-width: 575px; max-height: 300px">
             <div class="card-body">
               <p class="card-text text-center">Game Account :<br>
                 <a href="https://www.origin.com/idn/en-us/profile/ERZXTGS" target="new">Origin</a><br>
@@ -189,7 +190,8 @@
     <p class="text-white">Created With <i class="bi bi-heart-fill text-danger"></i> By <a
         href="https://www.youtube.com/watch?v=-AXetJvTfU0" class="text-white" target="new">Eriza Zehezkiel
         Gracia</a><br>
-      If you want to donate, you can see the method <a href="https://erizazg.my.id/donate" class="text-white">HERE!</a><br>
+      If you want to donate, you can see the method <a href="https://erizazg.my.id/donate"
+        class="text-white">HERE!</a><br>
       Hope You All Have A Good Day
     </p>
   </footer>
@@ -245,6 +247,29 @@
           console.log('Success!', response)
         })
         .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- Entahlah -->
+  <script>
+    //Get all the hyperlink elements
+    var links = document.getElementsByTagName("a");
+
+    //Browse the previously created array
+    Array.prototype.forEach.call(links, function (elem, index) {
+      //Get the hyperlink target and if it refers to an id go inside condition
+      var elemAttr = elem.getAttribute("href");
+      if (elemAttr && elemAttr.includes("#")) {
+        //Replace the regular action with a scrolling to target on click
+        elem.addEventListener("click", function (ev) {
+          ev.preventDefault();
+          //Scroll to the target element using replace() and regex to find the href's target id
+          document.getElementById(elemAttr.replace(/#/g, "")).scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+          });
+        });
+      }
     })
   </script>
 </body>
