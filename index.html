@@ -18,16 +18,26 @@
   <!-- Web Property -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-  <!-- Nggak tahu, gabut -->
+  <!-- Nggak tahu, gabut / OG -->
   <meta property="og:site_name" content="Eriza Zehezkiel Gracia">
   <meta property="og:title" content="Eriza Zehezkiel Gracia">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="Personal Website of Eriza Zehezkiel Gracia">
-  <meta property="og:url" content="erizazg.my.id">
+  <meta property="og:description" content="Personal Website of Eriza Zehezkiel Gracia.">
+  <meta property="og:url" content="https://erizazg.my.id">
   <meta property="og:image"
     content="https://raw.githubusercontent.com/Eriza-Z/Eriza-ERZ/master/Sekolah/Image/Sekolah/IMG_20220112_120416.jpg">
   <meta name="theme-color" content="#080452">
   <link type="application/json+oembed" href="dscembed.json">
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@eriza_gracia">
+  <meta name="twitter:creator" content="@eriza_gracia">
+  <meta name="twitter:url" content="https://erizazg.my.id">
+  <meta name="twitter:title" content="Eriza Zehezkiel Gracia">
+  <meta name="twitter:description" content="Personal Website of Eriza Zehezkiel Gracia.">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/Eriza-Z/Eriza-ERZ/master/Sekolah/Image/Sekolah/IMG_20220112_120416.jpg">
+  <meta name="twitter:wigets:theme" content="dark">
   <!-- Entahlah -->
   <link rel="canonical" href="https://erizazg.my.id">
   <!-- Bootstrap CDN for CSS -->
@@ -95,10 +105,10 @@
   </nav>
   <!-- Akhir Navbar -->
   <!-- Heroes -->
-  <section class="hero text-center"">
+  <section class="hero text-center" data-aos="fade-in" data-aos-duration="3000">
     <img src="
     https://raw.githubusercontent.com/Eriza-Z/Eriza-ERZ/master/Sekolah/Image/Sekolah/IMG_20220112_120416.jpg"
-    alt="Eriza Zehezkiel Gracia" width="200" class="rounded-circle img-thumbnail">
+      alt="Eriza Zehezkiel Gracia" width="200" class="rounded-circle img-thumbnail">
     <h1 class="display-4">Eriza Zehezkiel Gracia </h1>
     <p class="lead"></p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -118,10 +128,16 @@
       </div>
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-sm-4">
-          <p class="about-content-0"></p>
+          <p class="about-content-0">
+            Nama : Eriza Zehezkiel Gracia<br>Kebiasaan : Bermain Game, melakukan coding untuk hal yang tidak penting,
+            Menonton YouTube, dan Tidur....
+          </p>
         </div>
         <div class="col-sm-4">
-          <p class="about-content-1"></p>
+          <p class="about-content-1">
+            Suka : Anime Shonen & Shoujo Romance, Anime Slice of Life, Action Film, Racing
+            Game, Fast-Paced FPS Game, dan beberapa Tabletop Game.<br>Tidak suka: Sifat rasis, fasis, anarkis, dan
+            supremasi terhadap suatu suku, ras, agama dan antargolongan.</p>
         </div>
       </div>
     </div>
@@ -247,20 +263,6 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
-  <!-- GSAP Script Loader -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
-  <script>
-    gsap.registerPlugin(TextPlugin);
-    gsap.to('.lead', { duration: 1.75, delay: 1.25, text: 'Pelajar & Pencinta Game' });
-    gsap.to('.about-content-0', { duration: 3.25, delay: 5, text: 'Nama : Eriza Zehezkiel Gracia<br>Kebiasaan : Bermain Game, melakukan coding untuk hal yang tidak penting, Menonton YouTube, dan Tidur....' })
-    gsap.to('.about-content-1', {
-      duration: 5.25, delay: 5, text: 'Suka : Anime Shonen & Shoujo Romance, Anime Slice of Life, Action Film, Racing Game, Fast-Paced FPS Game, dan beberapa Tabletop Game.<br>Tidak suka: Sifat rasis, fasis, anarkis, dan supremasi terhadap suatu suku, ras, agama dan antargolongan.'
-    })
-    gsap.from('.hero img', { duration: 1.5, rotateX: 180, rotateY: 360, opacity: 0 });
-    gsap.from('.navbar', { duration: 1.25, y: -150, opacity: 0 })
-    gsap.from('.display-4', { duration: 1.5, x: -150, opacity: 0, delay: 0.75 })
   </script>
   <!-- Google Form Script -->
   <script>
