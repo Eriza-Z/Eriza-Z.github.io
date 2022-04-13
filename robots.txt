@@ -1,5 +1,7 @@
 User-agent: Twitterbot
 Disallow:
+Sitemap: https://erizazg.my.id/sitemap
 
 User-agent: *
 Disallow:
+Sitemap: https://erizazg.my.id/sitemap
