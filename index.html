@@ -22,7 +22,7 @@
   <meta property="og:image:height" content="256" />
   <meta property="og:image:alt" content="Foto lorong kelas" />
   <meta name="theme-color" content="#080452">
-  <link type="application/json+oembed" href="dscembed.json">
+  <link rel="manifest" type="application/json+embed" href="dscembed.json">
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@eriza_gracia">
@@ -50,6 +50,15 @@
   <meta name="description"
     content="Personal Website of Eriza Zehezkiel Gracia where this Web page Layout is like a Portofolio Website Page Layout">
   <meta name="author" content="Eriza Zehezkiel Gracia">
+  <!-- Preload -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="style/satu-lagi.css" as="style">
+  <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.css" as="style">
+  <link rel="preload" href="scripts/scrollspy.js" as="script">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" as="script">
+  <link rel="preload" href="scripts/gform.js" as="script">
+  <link rel="preload" href="scripts/idremove.js" as="script">
+  <link rel="preload" href="https://unpkg.com/aos@next/dist/aos.js" as="script">
 </head>
 
 <body id="home">
@@ -135,14 +144,10 @@
           <div class="card" data-aos="flip-left" data-aos-duration="1050">
             <div class="card-body">
               <p class="card-text text-center">Social Media:<br>
-                <a href="https://instagram.com/erizazg" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">Instagram</a><br>
-                <a href="https://www.quora.com/profile/Eriza-Z" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">Quora(EN)</a><br>
-                <a href="https://id.quora.com/profile/Eriza-Z" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">Quora(ID)</a><br>
-                <a href="https://github.com/Eriza-Z" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">GitHub</a><br>
+                <a href="https://instagram.com/erizazg" target="_blank" rel="noreferrer">Instagram</a><br>
+                <a href="https://www.quora.com/profile/Eriza-Z" target="_blank" rel="noreferrer"">Quora(EN)</a><br>
+                <a href="https://id.quora.com/profile/Eriza-Z" target="_blank" rel="noreferrer">Quora(ID)</a><br>
+                <a href="https://github.com/Eriza-Z" target="_blank" rel="noreferrer">GitHub</a><br>
               </p>
             </div>
           </div>
@@ -151,11 +156,9 @@
           <div class="card">
             <div class="card-body">
               <p class="card-text text-center">Game Account :<br>
-                <a href="https://www.origin.com/idn/en-us/profile/ERZXTGS" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">Origin</a><br>
-                <a href="https://www.gog.com/u/EZG_OF" target="_blank" rel="noreferrer" crossorigin="anonymous">GOG</a><br>
-                <a href="https://steamcommunity.com/id/EvRXa" target="_blank" rel="noreferrer"
-                  crossorigin="anonymous">Steam</a><br>
+                <a href="https://www.origin.com/idn/en-us/profile/ERZXTGS" target="_blank" rel="noreferrer">Origin</a><br>
+                <a href="https://www.gog.com/u/EZG_OF" target="_blank" rel="noreferrer">GOG</a><br>
+                <a href="https://steamcommunity.com/id/EvRXa" target="_blank" rel="noreferrer">Steam</a><br>
               </p>
             </div>
           </div>
@@ -217,32 +220,29 @@
   <!-- Footer -->
   <footer class="text-center pb-2">
     <p class="text-white">Created With <i class="bi bi-heart-fill text-danger"></i> By <a
-        href="https://www.youtube.com/watch?v=-AXetJvTfU0" class="text-white" target="new" rel="noreferrer"
-        crossorigin="anonymous">Eriza
-        Zehezkiel
-        Gracia</a><br>
+        href="https://www.youtube.com/watch?v=-AXetJvTfU0" class="text-white" target="new" rel="noreferrer">Eriza Zehezkiel Gracia</a><br>
       If you want to donate, you can see the method <a href="https://erizazg.my.id/donate" class="text-white"
-        rel="noreferrer" crossorigin="anonymous">HERE!</a><br>
+        rel="noreferrer">HERE!</a><br>
       Hope You All Have A Good Day
     </p>
   </footer>
   <!-- Akhir Footer -->
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous" ></script>
   <!-- ScrollSpy -->
-  <script src="scripts/scrollspy.js"></script>
+  <script defer src="scripts/scrollspy.js" crossorigin="anonymous"></script>
   <!-- AOS Script -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+  <script defer src="https://unpkg.com/aos@next/dist/aos.js" crossorigin="anonymous"></script>
+  <script defer>
     AOS.init();
   </script>
   <!-- Google Form Script -->
-  <script src="scripts/gform.js"></script>
+  <script defer src="scripts/gform.js" crossorigin="anonymous"></script>
 
   <!-- Removing Id From URL -->
-  <script src="scripts/idremove.js"></script>
+  <script defer src="scripts/idremove.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
