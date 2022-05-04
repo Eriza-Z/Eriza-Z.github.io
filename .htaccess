@@ -1,8 +1,18 @@
 #remove html file extension https://eriza-z.github.io/index.html or https://erizazg.my.id/index.html
+
 # to https://eriza-z.github.io/index or https://erizazg.my.id/index
+
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
 RewriteRule ^(.*)index$ / [R=301,L]
 ErrorDocument 404/404.html
+
+# Extra Security Headers
+
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set X-Content-Type-Options nosniff
+</IfModule>
