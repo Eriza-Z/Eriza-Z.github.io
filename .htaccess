@@ -1,6 +1,8 @@
-#remove html file extension https://eriza-z.github.io/index.html or https://erizazg.my.id/index.html
+# remove html file extension https://eriza-z.github.io/index.html or https://erizazg.my.id/index.html
 
 # to https://eriza-z.github.io/index or https://erizazg.my.id/index
+
+# and auto redirect non-existing to index.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -8,6 +10,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC, L]
 RewriteRule ^(.*)index$ / [R=301,L]
 ErrorDocument 404/404.html
+RewriteRule . /index.html [L]
 
 # Extra Security Headers
 
