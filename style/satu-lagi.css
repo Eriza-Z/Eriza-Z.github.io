@@ -1,1 +1,32 @@
-body{position:relative;overflow-y:scroll}h1{color:#000}p{color:#000}.hero{background-color:#a499b3}#connect{background-color:#534B62}#contact{background-color:#463239}#contact h2{color:#000}#about{background-color:#fff}footer{background-color:#a499b3}section{padding-top:4.5rem}
+body {
+  position: relative;
+  overflow-y: scroll;
+}
+p {
+  color: #ffffff;
+}
+.hero {
+  background-color: #000000;
+}
+#connect {
+  background-color: #4e4e4e;
+}
+#contact {
+  background-color: #4e4e4e;
+}
+h1 {
+  color: #ffffff;
+}
+h2 {
+  color: #ffffff;
+}
+#about {
+  background-color: #4e4e4e;
+}
+footer {
+  background-color: black;
+  color: #000000;
+}
+section {
+  padding-top: 4.5rem;
+}
