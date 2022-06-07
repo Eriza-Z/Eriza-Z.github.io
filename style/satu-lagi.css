@@ -30,3 +30,12 @@ footer {
 section {
   padding-top: 4.5rem;
 }
+a:active {
+  color: black;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
