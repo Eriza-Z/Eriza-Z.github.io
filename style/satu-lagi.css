@@ -1,9 +1,5 @@
-body {
-  position: relative;
-  overflow-y: scroll;
-}
 p {
-  color: #ffffff;
+  color: #000000;
 }
 .hero {
   background-color: #000000;
