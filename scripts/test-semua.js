@@ -12,7 +12,7 @@ const form=document.forms['erizazg-contact-form'];const btnKirim=document.queryS
 console.log('Success!',response)}).catch(error=>console.error('Error!',error.message))})
 // GSAP
 gsap.to(".about-text", {
-  duration: 4,
+  duration: 4.25,
   text: {
       value: "Name: Eriza <br>Hobby: Game, Music, Do Something Stupid <br>Live In: Indonesia<br>",
       delimiter: ""
@@ -20,7 +20,7 @@ gsap.to(".about-text", {
 });
 // Typing
 let typed = new Typed("#axf", {
-  strings: ["Game Lover", "Tech Lover", "Not An Anime Lover"],
+  strings: ["Friendly Guy", "Game Lover", "Tech Lover", "Not An Anime Lover", "Not A Developer"],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true

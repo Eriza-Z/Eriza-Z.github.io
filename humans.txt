@@ -1,11 +1,11 @@
 Web Maker
 	Name: Eriza Zehezkiel Gracia
 	Twitter: @eriza_gracia
-	Instagram: @ezgracia
+	Instagram: @erizazg
 	From: Kepulauan Riau, Indonesia
 
 Site Information
-	Last update: 08/06/2022 DD-MM-YYYY
+	Last update: 09/06/2022 DD-MM-YYYY
 	Language: Indonesia
 	Doctype: HTML5
 	IDE: Visual Studio Code
