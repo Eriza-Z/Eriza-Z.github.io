@@ -13,6 +13,7 @@ console.log('Success!',response)}).catch(error=>console.error('Error!',error.mes
 // GSAP
 gsap.to(".about-text", {
   duration: 4.25,
+  delay: 4,
   text: {
       value: "Name: Eriza <br>Hobby: Game, Music, Do Something Stupid <br>Live In: Indonesia<br>",
       delimiter: ""
