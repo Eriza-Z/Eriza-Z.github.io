@@ -1,9 +1,3 @@
-// Gtag.js
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RRMG5E1NE2');
 // ID remove
 var links=document.getElementsByTagName("a");Array.prototype.forEach.call(links,function(elem,index){var elemAttr=elem.getAttribute("href");if(elemAttr&&elemAttr.includes("#")){elem.addEventListener("click",function(ev){ev.preventDefault();document.getElementById(elemAttr.replace(/#/g,"")).scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"})})}})
 // Google Form
@@ -13,7 +7,7 @@ console.log('Success!',response)}).catch(error=>console.error('Error!',error.mes
 // GSAP
 gsap.to(".about-text", {
   duration: 4.25,
-  delay: 4,
+  delay: 5.5829,
   text: {
       value: "Name: Eriza <br>Hobby: Game, Music, Do Something Stupid <br>Live In: Indonesia<br>",
       delimiter: ""
@@ -21,8 +15,9 @@ gsap.to(".about-text", {
 });
 // Typing
 let typed = new Typed("#axf", {
-  strings: ["Friendly Guy", "Game Lover", "Tech Lover", "Not An Anime Lover", "Not A Developer"],
+  strings: ["A Friendly Guy", "A Game Lover", "A Tech Lover", "Not An Anime Lover", "Not A Developer"],
+  startDelay: 500,
   typeSpeed: 50,
-  backSpeed: 50,
-  loop: true
+  backSpeed: 25,
+  backDelay: 250,
 })
