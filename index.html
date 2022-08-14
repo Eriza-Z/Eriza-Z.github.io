@@ -81,13 +81,13 @@
   </section>
   <!-- Connect -->
   <section id="connect">
-    <div class="container">
+    <div class="container lax lax_preset_blurIn:163:20">
       <div class="row text-center">
         <div class="col">
           <h2>Connect With Me</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row lax lax_preset_blurIn:163:20">
         <div class="col-sm-6 mb-3 mt-3" data-aos="zoom-out" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="500">
           <div class="card">
             <div class="card-body">
@@ -117,7 +117,7 @@
   <!-- Akhir Connect -->
   <!-- Contact -->
   <section id="contact">
-    <div class="container">
+    <div class="container lax lax_preset_blurIn:163:20">
       <div class="row text-center mb-3">
         <div class="col">
           <h2>Contact Me</h2>
@@ -168,6 +168,28 @@
     </p> 
   </footer>
   <!-- Akhir Footer -->
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+  <script>
+    window.onload = function () {
+      lax.init()
+  
+      // Add a driver that we use to control our animations
+      lax.addDriver('scrollY', function () {
+        return window.scrollY
+      })
+  
+      // Add animation bindings to elements
+      lax.addElements('.selector', {
+        scrollY: {
+          translateX: [
+            ["elInY", "elCenterY", "elOutY"],
+            [0, 'screenWidth/2', 'screenWidth'],
+          ]
+        }
+      })
+    }
+  </script>
 <!-- Typing Effect -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <!-- AOS -->
