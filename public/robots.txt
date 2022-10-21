@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /link/
+
+Sitemap: https://erizazg.my.id/sitemap

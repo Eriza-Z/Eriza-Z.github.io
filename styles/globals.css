@@ -1,0 +1,22 @@
+body {
+  background-color: #000000;
+}
+h1 h2 h3 h4 h5 h6 p {
+  color: #ffffff;
+  font-family: monospace;
+}
+section {
+  padding-top: 4.5rem;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
