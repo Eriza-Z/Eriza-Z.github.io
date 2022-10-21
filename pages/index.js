@@ -39,7 +39,7 @@ export default function Home() {
         <meta name="keywords" content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia, EZGS, ezgs" />
         <meta name="description" content="Personal Website of Eriza Zehezkiel Gracia where this Web page Layout is like a Portofolio Website Page Layout" />
         <meta name="author" content="Eriza Zehezkiel Gracia" />
-        <link rel="shortcut icon" href="../public/favicon.ico" type="Image/webp" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <section class="hero text-center">
@@ -50,8 +50,7 @@ export default function Home() {
       </main>
       <footer className={"text-center pb-2"}>
         <p class="text-white">
-          Created By <a href="https://www.youtube.com/watch?v=-AXetJvTfU0" class="text-white" target="_blank" rel="noreferrer noopenner">Eriza Zehezkiel Gracia</a><br />
-          If you want to donate, you can see the method <a href="https://erizazg.my.id/link/saweria" class="text-white" target="_blank" rel="noreferrer noopenner">HERE!</a><br />
+          Created With <a href="https://nextjs.org" class="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>
