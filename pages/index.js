@@ -66,7 +66,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <section className="hero text-center">
-        <Image src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="ErZ" className="img-fluid lazy" id="HeroImage" width={756.792452829} height={350} layout="relative" priority />
+        <img src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="ErZ" className="img-fluid lazy" id="HeroImage" width="756.792452829" height="350" layout="relative" priority />
           <h1 className="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia. (<span className='karo'>Eriza Zehezkiel Gracia</span>)</h1>
           <h2 className="display-4 animate__animated animate__lightSpeedInLeft">I&apos;m <span ref={el} id="Typed"></span>.</h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
