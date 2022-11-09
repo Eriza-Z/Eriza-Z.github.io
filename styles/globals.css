@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Karo";
+  src: local("Karo"), local("Karo"), url("./Karo.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
 body {
   background-color: #000000;
 }
@@ -8,6 +14,16 @@ h1 {
 p {
   color: #ffffff;
   font-family: Kalam;
+}
+#Typed {
+  font-family: montserrat;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+}
+.karo {
+  color: #ffffff;
+  font-family: Karo;
 }
 section {
   padding-top: 4.5rem;

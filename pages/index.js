@@ -1,12 +1,35 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useEffect, useRef } from 'react'
+import Typed from "typed.js";
 
 export default function Home() {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["A Tech Lover", "A Game Lover", "A Music Lover", "Not A Developer", "Not An Anime Lover"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      // startDelay: 1000,
+      typeSpeed: 25,
+      backSpeed: 25,
+      backDelay: 250,
+      loop: true,
+      showCursor: true,
+      cursorChar: "!"
+    });
+    // Destroying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
         {/* Web Property */}
-        <meta charset="utf-8" />
+        <meta charSet='UTF-8'/>
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
         {/* OpenGraph */}
         <meta property="og:site_name" content="Eriza Zehezkiel Gracia" />
@@ -42,15 +65,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section class="hero text-center">
-          <img src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="Eriza Zehezkiel Gracia" width="350" height="300" class="img-fluid lazy" id="HeroImage" />
-          <h1 class="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia.</h1>
+        <section className="hero text-center">
+        <Image src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="ErZ" className="img-fluid lazy" id="HeroImage" width={756.792452829} height={350} layout="relative" priority />
+          <h1 className="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia. (<span className='karo'>Eriza Zehezkiel Gracia</span>)</h1>
+          <h2 className="display-4 animate__animated animate__lightSpeedInLeft">I&apos;m <span ref={el} id="Typed"></span>.</h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
       <footer className={"text-center pb-2"}>
-        <p class="text-white">
-          Created With <a href="https://nextjs.org" class="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+        <p className="text-white">
+          Created With <a href="https://nextjs.org" className="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>
