@@ -11,6 +11,8 @@ export default function MyApp({ Component, pageProps }) {
         crossOrigin="anonymous"
         />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam" />
     </Head>
     <Script
       id="bootstrap-cdn"
