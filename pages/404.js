@@ -40,16 +40,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero text-center">
+        <section className="hero tengah">
           <h1 className="display-4 animate__animated animate__lightSpeedInRight mt-4 md-4">Looks Like The Page You Looking For Is Not Available</h1>
           <h2 className='display-4 animate__animated animate__lightSpeedInLeft mt-4 md-4'>But Don&apos;t worry, <Link href="/"><em>Click Here To Go To Main Page</em></Link></h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
-      <footer className={"text-center pb-2"}>
-        <h1 className='md-4'><strong>Error: 404 Not Found</strong></h1>
-        <p className="text-white mt-4">
-          Created With <a href="https://nextjs.org" className="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+      <footer className={"tengah bottom-2"}>
+        <h1 className='mb-4'><strong>Error: 404 Not Found</strong></h1>
+        <p className="putih top-4">
+          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>

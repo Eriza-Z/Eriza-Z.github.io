@@ -65,17 +65,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero text-center">
-        <Image src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="Eriza Zehezkiel Gracia" className="img-fluid lazy" id="HeroImage" width={706.792452829} height={300} layout="intrinsic" />
-        {/* <img src="https://cdn.discordapp.com/attachments/971801947910848582/1019433060028129390/IMG_20220903_183158.jpg" alt="ErZ" className="img-fluid lazy" id="HeroImage" width="756.792452829" height="350" layout="relative" priority /> */}
-          <h1 className="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia. (<span className='karo'>Eriza Zehezkiel Gracia</span>)</h1>
+        <section className="hero tengah">
+        <Image data-src="https://mergoreb.sirv.com/ErZ.webp?w=648&h=300&scale.option=noup&format=webp&q=100" alt="ErZ" className="Sirv img-fluid lazy" id="HeroImage" width={648} height={300} />
+          <h1 className="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia.</h1>
           <h2 className="display-4 animate__animated animate__lightSpeedInLeft">I&apos;m <span ref={el} id="Typed"></span>.</h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
-      <footer className={"text-center pb-2"}>
-        <p className="text-white">
-          Created With <a href="https://nextjs.org" className="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+      <footer className={"tengah bottom-2"}>
+        <p className="putih">
+          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>

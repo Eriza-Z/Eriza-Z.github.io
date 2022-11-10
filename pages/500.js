@@ -39,17 +39,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero text-center">
-          <h1 className="mt-4 md-4">This Is Error Page For <strong>Error 500: Server-Side Error</strong></h1>
-          <h2 className='mt-4 md-4'>If You See This Page, Please Wait Until GitHub Done Their Job</h2>
-          <h3 className='mt-4'>This is a very rare error, cause this error only happens when GitHub server encounters a problem and is down. <a href='https://www.githubstatus.com/' rel='noreferrer noopenner'>Don&apos;t forget to check GitHub Status Website</a> to check has this error been solved</h3>
+        <section className="hero tengah">
+          <h1 className="top-4 bottom-4">This Is Error Page For <strong>Error 500: Server-Side Error</strong></h1>
+          <h2 className='top-4 bottom-4'>If You See This Page, Please Wait Until GitHub Done Their Job</h2>
+          <h3 className='top-4'>This is a very rare error, cause this error only happens when GitHub server encounters a problem and is down. <a href='https://www.githubstatus.com/' rel='noreferrer noopenner'>Don&apos;t forget to check GitHub Status Website</a> to check has this error been solved</h3>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
-      <footer className={"text-center"}>
+      <footer className={"tengah"}>
         <h1><strong>Error: 500 Server-Side Error</strong></h1>
-        <p className="text-white">
-          Created With <a href="https://nextjs.org" className="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+        <p className="putih">
+          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>

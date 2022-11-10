@@ -43,15 +43,15 @@ export default function Home() {
       </Head>
       {/* https://discord.gg/NXFSEdbqwk */}
       <main className={styles.main}>
-        <section className="hero text-center">
+        <section className="hero tengah">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1960 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
           <h1 className="mb-5 pb-5"><a href='https://github.com/Eriza-Z' target={"_blank"} rel='noreferrer noopenner'>Click Here</a></h1>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1960 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
-      <footer className={"text-center pb-4 pt-5 mt-5"}>
-        <p className="text-white">
-          Created With <a href="https://nextjs.org" className="text-white" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
+      <footer className={"tengah bottom-5 top-5"}>
+        <p className="putih">
+          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
           Hope You All Have A Good Day<br />
         </p>
       </footer>
