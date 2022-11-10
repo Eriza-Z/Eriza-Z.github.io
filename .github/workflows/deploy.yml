@@ -22,7 +22,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: arch-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
