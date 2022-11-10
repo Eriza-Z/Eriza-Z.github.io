@@ -6,6 +6,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['cdn.discordapp.com'],
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
