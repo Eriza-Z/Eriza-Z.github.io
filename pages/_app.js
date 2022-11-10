@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import Script from "next/script";
-import Head from "next/head";
 import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {
