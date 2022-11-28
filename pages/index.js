@@ -58,8 +58,8 @@ export default function Home() {
         {/* Canonical */}
         <link rel="canonical" href="https://erizazg.my.id" />
         {/* Website Thingy */}
-        <title>Eriza Zehezkiel Gracia</title>
-        <meta name="keywords" content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia, EZGS, ezgs" />
+        <title>ErZ</title>
+        <meta name="keywords" content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia, EZGS, ezgs, ErZ" />
         <meta name="description" content="Personal Website of Eriza Zehezkiel Gracia where this Web page Layout is like a Portofolio Website Page Layout" />
         <meta name="author" content="Eriza Zehezkiel Gracia" />
         <link rel="icon" href="/favicon.ico" />
@@ -67,7 +67,7 @@ export default function Home() {
       <main className={styles.main}>
         <section className="hero tengah">
         <Image data-src="https://mergoreb.sirv.com/ErZ.webp?w=648&h=300&scale.option=noup&format=webp&q=100" alt="ErZ" className="Sirv img-fluid lazy" id="HeroImage" width={648} height={300} />
-          <h1 className="display-4 animate__animated animate__lightSpeedInRight">Eriza Zehezkiel Gracia.</h1>
+          <h1 className="display-4 animate__animated animate__lightSpeedInRight">ErZ.</h1>
           <h2 className="display-4 animate__animated animate__lightSpeedInLeft">I&apos;m <span ref={el} id="Typed"></span>.</h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
