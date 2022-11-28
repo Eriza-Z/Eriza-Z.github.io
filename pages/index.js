@@ -73,10 +73,9 @@ export default function Home() {
         </section>
       </main>
       <footer className={"tengah bottom-2"}>
-        <p className="putih">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
-          Hope You All Have A Good Day<br />
-        </p>
+        <q className="putih">
+        La Vida No Esjusta. La Vie Est Enjusta
+        </q>
       </footer>
     </div>
   )

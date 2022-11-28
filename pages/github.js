@@ -49,11 +49,10 @@ export default function Home() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1960 320"><path fill="#000000" fill-opacity="1" d="M0,288L1440,288L1440,320L0,320Z"></path></svg>
         </section>
       </main>
-      <footer className={"tengah bottom-5 top-5"}>
-        <p className="putih">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
-          Hope You All Have A Good Day<br />
-        </p>
+      <footer className={"tengah bottom-2"}>
+        <q className="putih">
+        La Vida No Esjusta. La Vie Est Enjusta
+        </q>
       </footer>
     </div>
   )

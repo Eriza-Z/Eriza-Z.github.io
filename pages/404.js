@@ -48,10 +48,9 @@ export default function Home() {
       </main>
       <footer className={"tengah bottom-2"}>
         <h1 className='mb-4'><strong>Error: 404 Not Found</strong></h1>
-        <p className="putih top-4">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
-          Hope You All Have A Good Day<br />
-        </p>
+        <q className="putih">
+        La Vida No Esjusta. La Vie Est Enjusta
+        </q>
       </footer>
     </div>
   )

@@ -48,10 +48,9 @@ export default function Home() {
       </main>
       <footer className={"tengah"}>
         <h1><strong>Error: 500 Server-Side Error</strong></h1>
-        <p className="putih">
-          Created With <a href="https://nextjs.org" className="putih" target={"_blank"} rel="noreferrer noopenner">NextJS</a>, and <a href='https://code.visualstudio.com' target={"_blank"} rel="noreferrer noopenner">VS Code</a><br />
-          Hope You All Have A Good Day<br />
-        </p>
+        <q className="putih">
+        La Vida No Esjusta. La Vie Est Enjusta
+        </q>
       </footer>
     </div>
   )
