@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Personal Website of Eriza Zehezkiel Gracia where this Web page Layout is like a Portofolio Website Page Layout"
+          content="Personal Website of Eriza Zehezkiel Gracia Main Page"
         />
         <meta name="author" content="Eriza Zehezkiel Gracia" />
         <link rel="icon" href="/favicon.ico" />
@@ -59,11 +59,11 @@ export default function Home() {
         <meta property="og:url" content="https://erizazg.my.id" />
         <meta
           property="og:image"
-          content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp"
+          content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
         />
         <meta
           property="og:image:secure_url"
-          content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp"
+          content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
         />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="256" />
@@ -79,7 +79,7 @@ export default function Home() {
         <meta name="twitter:description" content="Personal Website of ErZ." />
         <meta
           name="twitter:image"
-          content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp"
+          content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
         />
         <meta name="twitter:wigets:theme" content="dark" />
         {/* Apple */}
