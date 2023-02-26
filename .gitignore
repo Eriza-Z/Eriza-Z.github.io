@@ -35,5 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Not Used
 Arsip
 Archive
+
+# Haven't ready yet
+Gallery
