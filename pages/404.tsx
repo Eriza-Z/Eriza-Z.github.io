@@ -80,6 +80,10 @@ export default function E404() {
           <br />
           {"La Vida No Enjusta, La Vie Est Enjuste"}
         </p>
+        <h1 className='mb-4'><strong>Error: 404 Not Found</strong></h1>
+        <q className="putih">
+        La Vida No Esjusta. La Vie Est Enjusta
+        </q>
       </footer>
     </div>
   );
