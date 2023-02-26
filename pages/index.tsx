@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Image from "next/image";
