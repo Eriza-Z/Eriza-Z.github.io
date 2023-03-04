@@ -1,7 +1,7 @@
 .container {
-	max-width: 180rem;
-	margin: 0 auto;
-	padding: 0 2rem 2rem;
+  max-width: 180rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
 }
 .main {
   color: #ffffff;
@@ -24,62 +24,67 @@
   flex-wrap: wrap;
   max-width: 800px;
 }
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+.gallery {
+  display: grid;
+  padding: 2px;
+  transition: 0.3s;
+  justify-content: center;
+
+  &:hover &__image {
+    filter: grayscale(1);
+  }
+
+  &__column {
+    display: flex;
     flex-direction: column;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 12px 36px;
-  text-align: center;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  filter: grayscale(1) brightness(0.5);
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s linear;
-}
-.column img:hover {
-  filter: grayscale(0);
-}
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
     max-width: 100%;
   }
-  .column img {
-    filter: grayscale(0) brightness(1);
+
+  &__link {
+    margin: 2px;
+    overflow: hidden;
+
+    &:hover {
+      .gallery__image {
+        filter: grayscale(0);
+      }
+
+      .gallery__caption {
+        opacity: 1;
+      }
+    }
   }
+
+  &__thumb {
+    position: relative;
+  }
+
+  &__image {
+    display: block;
+    margin-bottom:3rem!important;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+  }
+}
+
+@media all and (orientation:portrait) {
+    .gallery {
+         display: none;
+    }
 }
