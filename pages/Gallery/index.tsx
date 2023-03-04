@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export default function Gallery() {
   useEffect(() => {
     if (window.innerHeight > window.innerWidth) {
-      alert("To see this page content, please use Landscape mode.");
+      alert("To see this page content, please use Landscape mode, if the content didn't show up, please refresh the page after changing your phone orientation to Landscape.");
     }
   }, []);
 
@@ -94,7 +94,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@oladimeg"
+            href="https://www.instagram.com/p/Co3pqg4SCHK/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -113,7 +113,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@a2eorigins"
+            href="https://www.instagram.com/p/Co3pqg4SCHK/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -133,7 +133,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="flip-right">
           <a
-            href="https://unsplash.com/@noahbuscher"
+            href="https://www.instagram.com/p/Co3pqg4SCHK/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -152,7 +152,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@von_co"
+            href="https://www.instagram.com/p/Co3pqg4SCHK/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -171,7 +171,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@samburriss"
+            href="https://www.instagram.com/p/Co3pqg4SCHK/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -191,7 +191,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-left">
           <a
-            href="https://unsplash.com/@marilezhava"
+            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -210,7 +210,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@ethanhaddox"
+            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -229,7 +229,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@mr_geshani"
+            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -249,7 +249,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-right">
           <a
-            href="https://unsplash.com/@frxgui"
+            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -268,7 +268,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@majestical_jasmin"
+            href="https://lh3.googleusercontent.com/NWiX5cNrZqAAryQIv3ef8l_uyinD0xtuP2kLSDTmRdZCmZJwXS7N1hbdAY44yK_PU-h3ib4M72vjGTyNHlOxzNA7kTON6htG-jRHwJD2EXCYLTfiONf5_VvFM_lk4u4SLfomXZFheIIHuiTlSNG-PID1EExldHQX-6VQepsaLDNQ_CM9UZV3VwPWAU__GjQ8g__xAZCOlhHkbjUey0-rOYCPOtdg1ZWePk5Ss92rH6sb0O9XUWC4B82468eHdeAEnCp6hr8M2_pUrkwBioVI7ux4mTa5pXMpzP23bDvj5B0mlGezgux2lz2mul9KoiADoKJ2LJI_76ajo2YzoUAedfnDHgr4V0wW2avIHBG9wDOkw1AEfsVT65GPPxQybfXlRCIvGll5CJaa_fgTA-G21_3ZUOwTz8OReNSCTdlLK2Xj4-Hny4RjWf_Z7wHqAvNnFjB8DKUmj2zI9Z-uLkMkDTmIdu1hZaqONeM4qpGmpOzqxaNUYl-WwVuqokTYSmBJ44ACLdBEbSBrDkfso7Rp07EV1IzpglFMRwEoZ96f-dhldJJ6ReHoftDnnui6TwztSbSkw0p6apBEjzie8MCeOwDmt2R4Eu4ucsrX0HZf_LBqSlX13o4FbcacSzRNBa0zt1ZeEXNG4_Cb6W3wneTbUWyvDyDzhAISH5pSGLokKC2aLGEenSVy5J--xXfQ_k_Z10rt_L_0h-Bxe6O5ifI5SvjgYDuapfUdZOgFM6pcB3_B6hecgdVVwD_Y1JG-8ogtgLX5g5gVk35-g_qBHdpC1P07l84_klWXJ5RVrY6UnCwR9zh08qOH45BIDTSo8otmCWVtbRKUdLsY43M5Yv3yNrbl5hY5Gemiy0ziXZUsRQUGVa0m0ZCmTqbGIovK3FnrxdoVkwC4oHL5u7fVk3Skqp_llOFR6DJXuT_E7bRFw2XtFE2OiEcjuNSDRu5oVsP91LpuLE_HJ6ORF8H0Avv5rKJVFj9dcSt1Pa6KJ9nCKEfof_thkkPEEQ=w1770-h995-no?authuser=0"
             target="_blank"
             className={style.gallery__link}
           >
@@ -287,7 +287,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@dimadallacqua"
+            href="https://lh3.googleusercontent.com/pw/AMWts8CEsdApnVWHfPttz5hXIV9Ysee-nRlYfNV6TpSgCTWEis_MAyzJW9Rong5jSADoz7JqiBXX1a1LQor5C2u0Q58qXl5h2S_330kVWlaXJHrJdqXRsdPhLlVmRokwkcA6vSro1KXaeKWeOfwp7xRX0SQf=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -306,7 +306,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@dimadallacqua"
+            href="https://lh3.googleusercontent.com/pw/AMWts8DgENbfSrtVO7daMlDjUMAzYQnrxfIa9JN-5_2ttikl5UDeSw2feFNDItATDbYSIAPNSeozdoqsMX-Z9paePD3pGCVPcmzJ7XIxRk7CQrkkSifENU5LBz7WrErQw_ntx6corKUFJe167QDSl7Xu5BFq=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -326,7 +326,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-up">
           <a
-            href="https://unsplash.com/@frxgui"
+            href="https://lh3.googleusercontent.com/pw/AMWts8C1PmSdSF8AJXAdAbsZUWxINdmHlxiivjwMAjukpLFiX3ofdF8UPz0XVmXqRFAoOGJ7etw5IF4kPsnjq2gqyXxOHRAoLm6HBMcXR99kYlRW_Y7BLEyC9OJtOxNzV-Spebnw7-vgMx41hr0bDTiPobSr=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -345,7 +345,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@majestical_jasmin"
+            href="https://lh3.googleusercontent.com/pw/AMWts8AfTKY4fhZ6d6s_sSkgP-WCLebsyX2C0yRcom37Oz4r8O0AfPfxi7yiR0UXHlgYMPMRlD_-pa15egmZ7dl3JppH7nFZFkv8CxZEQBaNc7SC-VrGUTdsxoBs3ty2Cj1kxO76hx0HIK__5m_n-vwHFzzH=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -364,7 +364,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@dimadallacqua"
+            href="https://lh3.googleusercontent.com/pw/AMWts8CZmamZ6agrrbNVF-edkXg-Tb-c1IB3qCvn2iB42eVyFC84iDrcXvY5hXH2Wou-9B0JXXNojz0QLJXcAROTy_u2kz6WStEfgwaqf9Zmz4jTcnH6SFgdcN2-KerrKC-03CKM_iHIli9GkwiHFCmP0HTJ=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -384,7 +384,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-down">
           <a
-            href="https://unsplash.com/@frxgui"
+            href="https://lh3.googleusercontent.com/pw/AMWts8Dv5T0ibI440JJvJ2wKFWZsUbGBr3MvkgkbkcMJgGjKkdK44aE3eGJoauWW1aCht70_fKGBso03T9PYZajWV5Re_PbVp567qJ9smmCQ-KqxlulDIVo-Y5KyqQlTzE5jnlVc7h3I_G6ln4pexMckBNJP=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
@@ -403,7 +403,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://unsplash.com/@majestical_jasmin"
+            href="https://lh3.googleusercontent.com/pw/AMWts8DN2xo5c4F3oCyGUaELbdywlpXPqyDh37VhTAR7zxv-yxmDrpaUCRb8ReJBo_uBkx9GMp0dSdK3XSm231KSIT88Pm1BC64avVHf5aeA8nyrIVpaWi1C0_4qPRVEYFEDRW7ntAnUDPbjiy-SFm_NiV_D=w1769-h995-s-no"
             target="_blank"
             className={style.gallery__link}
           >
