@@ -268,20 +268,20 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://lh3.googleusercontent.com/NWiX5cNrZqAAryQIv3ef8l_uyinD0xtuP2kLSDTmRdZCmZJwXS7N1hbdAY44yK_PU-h3ib4M72vjGTyNHlOxzNA7kTON6htG-jRHwJD2EXCYLTfiONf5_VvFM_lk4u4SLfomXZFheIIHuiTlSNG-PID1EExldHQX-6VQepsaLDNQ_CM9UZV3VwPWAU__GjQ8g__xAZCOlhHkbjUey0-rOYCPOtdg1ZWePk5Ss92rH6sb0O9XUWC4B82468eHdeAEnCp6hr8M2_pUrkwBioVI7ux4mTa5pXMpzP23bDvj5B0mlGezgux2lz2mul9KoiADoKJ2LJI_76ajo2YzoUAedfnDHgr4V0wW2avIHBG9wDOkw1AEfsVT65GPPxQybfXlRCIvGll5CJaa_fgTA-G21_3ZUOwTz8OReNSCTdlLK2Xj4-Hny4RjWf_Z7wHqAvNnFjB8DKUmj2zI9Z-uLkMkDTmIdu1hZaqONeM4qpGmpOzqxaNUYl-WwVuqokTYSmBJ44ACLdBEbSBrDkfso7Rp07EV1IzpglFMRwEoZ96f-dhldJJ6ReHoftDnnui6TwztSbSkw0p6apBEjzie8MCeOwDmt2R4Eu4ucsrX0HZf_LBqSlX13o4FbcacSzRNBa0zt1ZeEXNG4_Cb6W3wneTbUWyvDyDzhAISH5pSGLokKC2aLGEenSVy5J--xXfQ_k_Z10rt_L_0h-Bxe6O5ifI5SvjgYDuapfUdZOgFM6pcB3_B6hecgdVVwD_Y1JG-8ogtgLX5g5gVk35-g_qBHdpC1P07l84_klWXJ5RVrY6UnCwR9zh08qOH45BIDTSo8otmCWVtbRKUdLsY43M5Yv3yNrbl5hY5Gemiy0ziXZUsRQUGVa0m0ZCmTqbGIovK3FnrxdoVkwC4oHL5u7fVk3Skqp_llOFR6DJXuT_E7bRFw2XtFE2OiEcjuNSDRu5oVsP91LpuLE_HJ6ORF8H0Avv5rKJVFj9dcSt1Pa6KJ9nCKEfof_thkkPEEQ=w1770-h995-no?authuser=0"
+            href="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB0Kfm8Sr1OUKyCdMEdppRoRn3t5K9Tjg5enpb4sOP0UN0dyHeFheuhRLtsLMQir_mthl4DlLzJzOzzZxGOhwRymxjvbR_FPNdt3BNdx0FY-ALkyxSZExoT9d8b8jN9CkPbxXU45LONJStqXxBxMGGqMDI2-Z_bl7r7FJP8yhDD8WGrFL8F2dvA34ZHKlOci_6bKs4I-1X8erKKn0YlVG6COrpFykkhmBmb34orqtArnSv9PEgG6fIMa1XzdunYacHLZyOLG-vwVk5U70tWiYZ0SRR5DEh20LWcEcjVmj4R7aQsVHlbWe1DiL-wgfOT1H2klI60KIWup8J1bTMOOkxHAAXlDs0i3CDj51Bqs5fvkrHf1r1tN3_t10J2QSgTZ-3rq7VL6oaUXI9A5dsZhY32NlOWLKMKg3K25LJjFNNVjDQ/p.jpeg"
             target="_blank"
             className={style.gallery__link}
           >
             <figure className={style.gallery__thumb}>
               <Image
-                src="https://lh3.googleusercontent.com/NWiX5cNrZqAAryQIv3ef8l_uyinD0xtuP2kLSDTmRdZCmZJwXS7N1hbdAY44yK_PU-h3ib4M72vjGTyNHlOxzNA7kTON6htG-jRHwJD2EXCYLTfiONf5_VvFM_lk4u4SLfomXZFheIIHuiTlSNG-PID1EExldHQX-6VQepsaLDNQ_CM9UZV3VwPWAU__GjQ8g__xAZCOlhHkbjUey0-rOYCPOtdg1ZWePk5Ss92rH6sb0O9XUWC4B82468eHdeAEnCp6hr8M2_pUrkwBioVI7ux4mTa5pXMpzP23bDvj5B0mlGezgux2lz2mul9KoiADoKJ2LJI_76ajo2YzoUAedfnDHgr4V0wW2avIHBG9wDOkw1AEfsVT65GPPxQybfXlRCIvGll5CJaa_fgTA-G21_3ZUOwTz8OReNSCTdlLK2Xj4-Hny4RjWf_Z7wHqAvNnFjB8DKUmj2zI9Z-uLkMkDTmIdu1hZaqONeM4qpGmpOzqxaNUYl-WwVuqokTYSmBJ44ACLdBEbSBrDkfso7Rp07EV1IzpglFMRwEoZ96f-dhldJJ6ReHoftDnnui6TwztSbSkw0p6apBEjzie8MCeOwDmt2R4Eu4ucsrX0HZf_LBqSlX13o4FbcacSzRNBa0zt1ZeEXNG4_Cb6W3wneTbUWyvDyDzhAISH5pSGLokKC2aLGEenSVy5J--xXfQ_k_Z10rt_L_0h-Bxe6O5ifI5SvjgYDuapfUdZOgFM6pcB3_B6hecgdVVwD_Y1JG-8ogtgLX5g5gVk35-g_qBHdpC1P07l84_klWXJ5RVrY6UnCwR9zh08qOH45BIDTSo8otmCWVtbRKUdLsY43M5Yv3yNrbl5hY5Gemiy0ziXZUsRQUGVa0m0ZCmTqbGIovK3FnrxdoVkwC4oHL5u7fVk3Skqp_llOFR6DJXuT_E7bRFw2XtFE2OiEcjuNSDRu5oVsP91LpuLE_HJ6ORF8H0Avv5rKJVFj9dcSt1Pa6KJ9nCKEfof_thkkPEEQ=w1770-h995-no?authuser=0"
+                src="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB0Kfm8Sr1OUKyCdMEdppRoRn3t5K9Tjg5enpb4sOP0UN0dyHeFheuhRLtsLMQir_mthl4DlLzJzOzzZxGOhwRymxjvbR_FPNdt3BNdx0FY-ALkyxSZExoT9d8b8jN9CkPbxXU45LONJStqXxBxMGGqMDI2-Z_bl7r7FJP8yhDD8WGrFL8F2dvA34ZHKlOci_6bKs4I-1X8erKKn0YlVG6COrpFykkhmBmb34orqtArnSv9PEgG6fIMa1XzdunYacHLZyOLG-vwVk5U70tWiYZ0SRR5DEh20LWcEcjVmj4R7aQsVHlbWe1DiL-wgfOT1H2klI60KIWup8J1bTMOOkxHAAXlDs0i3CDj51Bqs5fvkrHf1r1tN3_t10J2QSgTZ-3rq7VL6oaUXI9A5dsZhY32NlOWLKMKg3K25LJjFNNVjDQ/p.jpeg"
                 alt={"Pajak Pancur Batu"}
                 width={578}
                 height={370.5}
                 className={style.gallery__image}
               />
               <figcaption className={style.gallery__caption}>
-                Pasar Pancut Batu
+                Pasar Pancur Batu
               </figcaption>
             </figure>
           </a>
