@@ -38,7 +38,7 @@ export default function Gallery() {
           property="og:description"
           content="Eriza Zehezkiel Gracia Gallery Page."
         />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:url" content="https://erizazg.my.id/Gallery" />
         <meta
           property="og:image"
           content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
@@ -56,7 +56,7 @@ export default function Gallery() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id" />
+        <meta name="twitter:url" content="https://erizazg.my.id/Gallery" />
         <meta name="twitter:title" content="ErZ" />
         <meta
           name="twitter:description"
@@ -268,13 +268,13 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB0Kfm8Sr1OUKyCdMEdppRoRn3t5K9Tjg5enpb4sOP0UN0dyHeFheuhRLtsLMQir_mthl4DlLzJzOzzZxGOhwRymxjvbR_FPNdt3BNdx0FY-ALkyxSZExoT9d8b8jN9CkPbxXU45LONJStqXxBxMGGqMDI2-Z_bl7r7FJP8yhDD8WGrFL8F2dvA34ZHKlOci_6bKs4I-1X8erKKn0YlVG6COrpFykkhmBmb34orqtArnSv9PEgG6fIMa1XzdunYacHLZyOLG-vwVk5U70tWiYZ0SRR5DEh20LWcEcjVmj4R7aQsVHlbWe1DiL-wgfOT1H2klI60KIWup8J1bTMOOkxHAAXlDs0i3CDj51Bqs5fvkrHf1r1tN3_t10J2QSgTZ-3rq7VL6oaUXI9A5dsZhY32NlOWLKMKg3K25LJjFNNVjDQ/p.jpeg"
+            href="/Pajak-Pancur.jpg"
             target="_blank"
             className={style.gallery__link}
           >
             <figure className={style.gallery__thumb}>
               <Image
-                src="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB0Kfm8Sr1OUKyCdMEdppRoRn3t5K9Tjg5enpb4sOP0UN0dyHeFheuhRLtsLMQir_mthl4DlLzJzOzzZxGOhwRymxjvbR_FPNdt3BNdx0FY-ALkyxSZExoT9d8b8jN9CkPbxXU45LONJStqXxBxMGGqMDI2-Z_bl7r7FJP8yhDD8WGrFL8F2dvA34ZHKlOci_6bKs4I-1X8erKKn0YlVG6COrpFykkhmBmb34orqtArnSv9PEgG6fIMa1XzdunYacHLZyOLG-vwVk5U70tWiYZ0SRR5DEh20LWcEcjVmj4R7aQsVHlbWe1DiL-wgfOT1H2klI60KIWup8J1bTMOOkxHAAXlDs0i3CDj51Bqs5fvkrHf1r1tN3_t10J2QSgTZ-3rq7VL6oaUXI9A5dsZhY32NlOWLKMKg3K25LJjFNNVjDQ/p.jpeg"
+                src="/Pajak-Pancur.jpg"
                 alt={"Pajak Pancur Batu"}
                 width={578}
                 height={370.5}

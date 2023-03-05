@@ -1,3 +1,5 @@
+$irenk: #161d19;
+
 :root {
 	font-size: 16px;
 }
@@ -16,21 +18,27 @@ html {
 
 body {
 	min-height: 100vh;
-	background-color: #000000;
+	background-color: #7d7a4e;
 }
 h1 {
-  color: #ffffff;
+  color: $irenk;
   font-family: Share Tech Mono;
 }
+h2 {
+  font-family: Montserrat;
+}
+.h2-utama {
+  color: $irenk;
+}
 p {
-  color: #ffffff;
+  color: $irenk;
   font-family: Kalam;
 }
 #Typed {
   font-family: montserrat;
   font-weight: 600;
   font-style: italic;
-  color: #ffffff;
+  color: $irenk;
 }
 a {
   text-decoration: none;
@@ -75,7 +83,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: rgb(4, 1, 45);
+  background-color: #7d7a4e;
   font-size: 18px;
   font-family: 'Montserrat';
   color: rgb(212, 212, 212);

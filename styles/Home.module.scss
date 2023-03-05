@@ -1,9 +1,13 @@
+$irenk: #161d19;
+$ilahi: #e0e0e0;
+$ijo: #347a3d;
+
 .main {
   color: #ffffff;
   font-family: monospace;
 }
 .footer {
-  background-color: black;
+  background-color: #ccc998;
   color: #000000;
 }
 .footer a {
@@ -57,7 +61,7 @@
 
   &__image {
     display: block;
-    margin-bottom:3rem!important;
+    margin-bottom: 3rem !important;
     transition: 0.3s;
 
     &:hover {
@@ -79,10 +83,10 @@
   }
 }
 
-@media all and (orientation:portrait) {
-    .gallery {
-         display: none;
-    }
+@media all and (orientation: portrait) {
+  .gallery {
+    display: none;
+  }
 }
 
 // Password Generator
@@ -100,8 +104,8 @@
   width: 90%;
   max-width: 400px;
 }
-.field input[type='number'] {
-  width: 4.5rem;
+.field input[type="number"] {
+  width: 6rem;
   height: 40px;
   outline: none;
   border: none;
@@ -140,4 +144,41 @@
   .field {
     font-size: 16px;
   }
+}
+
+// Link-in-bio
+.content {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: #7d7a4e;
+}
+.button_area {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 500px;
+}
+.a {
+  padding: 25px;
+  margin: 1em 2.4em;
+  color: $ilahi;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  background: $irenk;
+  transition: 0.75s;
+}
+
+.a:hover {
+  background: $ijo;
+  transition-duration: 0.5s;
+  transition-delay: 0.125s;
+  color: $irenk;
+}
+
+.irenk {
+  color: $irenk;
 }

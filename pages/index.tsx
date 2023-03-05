@@ -100,12 +100,12 @@ export default function Home() {
           <h1 className="display-4 animate__animated animate__lightSpeedInRight">
             Eriza Zehezkiel Gracia.
           </h1>
-          <h2 className="display-4 animate__animated animate__lightSpeedInLeft">
-            I&apos;m <span ref={el} id="Typed"></span>.
+          <h2 className="display-4 animate__animated animate__lightSpeedInLeft h2-utama">
+            I&apos;m <span ref={el} id="Typed"></span>
           </h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
             <path
-              fill="#000000"
+              fill="#7d7a4e"
               fill-opacity="1"
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>

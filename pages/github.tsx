@@ -19,7 +19,7 @@ export default function GitHub() {
         <meta property="og:title" content="ErZ" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Personal Website of ErZ." />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:url" content="https://erizazg.my.id/github" />
         <meta property="og:image" content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
         <meta property="og:image:type" content="image/webp" />
@@ -31,7 +31,7 @@ export default function GitHub() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id" />
+        <meta name="twitter:url" content="https://erizazg.my.id/github" />
         <meta name="twitter:title" content="ErZ" />
         <meta name="twitter:description" content="Personal Website of ErZ." />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/Web/Icon/icon.webp" />
@@ -39,7 +39,7 @@ export default function GitHub() {
         {/* Apple */}
         <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
         {/* Canonical */}
-        <link rel="canonical" href="https://erizazg.my.id" />
+        <link rel="canonical" href="https://erizazg.my.id/github" />
     </Head>
       {/* https://discord.gg/NXFSEdbqwk */}
       <main className={styles.main}>
@@ -62,7 +62,7 @@ export default function GitHub() {
           </h1>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1960 320">
             <path
-              fill="#000000"
+              fill="#7d7a4e"
               fill-opacity="1"
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>

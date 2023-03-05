@@ -88,7 +88,7 @@ function App() {
         <meta property="og:title" content="ErZ" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Password Generator Website Page from ErZ." />
-        <meta property="og:url" content="https://erizazg.my.id" />
+        <meta property="og:url" content="https://erizazg.my.id/password-generator" />
         <meta
           property="og:image"
           content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
@@ -106,7 +106,7 @@ function App() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id" />
+        <meta name="twitter:url" content="https://erizazg.my.id/password-generator" />
         <meta name="twitter:title" content="ErZ" />
         <meta name="twitter:description" content="Password Generator Website Page from ErZ." />
         <meta
@@ -126,7 +126,7 @@ function App() {
               <input
                 type="text"
                 id="result"
-                placeholder="Insert between 8 - 32768 Character"
+                placeholder="Insert At Least 8 Character"
                 readOnly
                 value={result}
               />
@@ -141,7 +141,7 @@ function App() {
                   type="number"
                   id="length"
                   min={8}
-                  max={32768}
+                  max={9.0071993e+15}
                   name="length"
                   value={values.length}
                   onChange={setValues}
