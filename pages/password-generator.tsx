@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import { FaClipboard } from "react-icons/fa";
-import { useForm } from "./Components/form";
-import { getRandomChar, getSpecialChar } from "./Components/utility";
+import { useForm } from "../Components/form";
+import { getRandomChar, getSpecialChar } from "../Components/utility";
 import style from "../styles/Home.module.scss";
 
 function App() {
