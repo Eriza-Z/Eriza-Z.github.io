@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.scss";
 
 export default function E500() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         {/* Web Property */}
         <meta charSet="UTF-8" />
@@ -51,7 +51,7 @@ export default function E500() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero tengah">
+        <div className="hero tengah">
           <h1 className="top-4 bottom-4">
             This Is Error Page For <strong>Error 500: Server-Side Error</strong>
           </h1>
@@ -73,7 +73,7 @@ export default function E500() {
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>
           </svg>
-        </section>
+        </div>
       </main>
       <footer className={"tengah"}>
         <h1>

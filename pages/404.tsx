@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function E404() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         {/* Web Property */}
         <meta charSet="UTF-8" />
@@ -52,7 +52,7 @@ export default function E404() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <section className="hero tengah">
+        <div className="hero tengah">
           <h1 className="display-4 animate__animated animate__lightSpeedInRight mt-4 md-4">
             Looks Like The Page You Looking For Is Not Available
           </h1>
@@ -69,7 +69,7 @@ export default function E404() {
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>
           </svg>
-        </section>
+        </div>
       </main>
       <footer className={"tengah bottom-2"}>
         <h1 className="mb-4">

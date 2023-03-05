@@ -21,8 +21,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "script/gallery.js"  ],
+    "**/*.tsx", ],
   "exclude": [
     "node_modules"
   ]

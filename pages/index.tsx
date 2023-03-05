@@ -32,7 +32,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         {/* Web Property */}
         <title>Eriza Zehezkiel Gracia</title>
@@ -88,14 +88,14 @@ export default function Home() {
         <link rel="canonical" href="https://erizazg.my.id" />
       </Head>
       <main className={styles.main}>
-        <section className="hero tengah">
+        <div className="hero tengah">
           <Image
-            src="https://mergoreb.sirv.com/ErZ.webp?w=648&h=300&scale.option=noup&format=webp&q=100"
+            src="https://mergoreb.sirv.com/ErZ.webp?w=324&h=150&scale.option=noup&format=webp&q=100"
             alt="ErZ"
             className="Sirv img-fluid lazy"
             id="HeroImage"
-            width={648}
-            height={300}
+            width={324}
+            height={150}
           />
           <h1 className="display-4 animate__animated animate__lightSpeedInRight">
             Eriza Zehezkiel Gracia.
@@ -110,10 +110,10 @@ export default function Home() {
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>
           </svg>
-        </section>
+        </div>
       </main>
-      <footer className={"tengah bottom-2"}>
-        <p className="putih top-4">
+      <footer className={"tengah"}>
+        <p className="putih">
           Hope You All Have A Good Day
           <br />
           {"La Vida No Enjusta, La Vie Est Enjuste"}
