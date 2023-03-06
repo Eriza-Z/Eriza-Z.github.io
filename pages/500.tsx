@@ -68,7 +68,7 @@ export default function E500() {
           </h3>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
             <path
-              fill="#7d7a4e"
+              fill="#000000"
               fill-opacity="1"
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>
@@ -79,12 +79,6 @@ export default function E500() {
         <h1>
           <strong>Error: 500 Server-Side Error</strong>
         </h1>
-        <p className="putih top-4">
-          Hope You All Have A Good Day
-          <br />
-          {"La Vida No Enjusta, La Vie Est Enjuste"}
-        </p>
-        <h1><strong>Error: 500 Server-Side Error</strong></h1>
         <q className="putih">
         La Vida No Esjusta. La Vie Est Enjusta
         </q>

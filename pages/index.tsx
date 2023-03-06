@@ -105,7 +105,7 @@ export default function Home() {
           </h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
             <path
-              fill="#7d7a4e"
+              fill="#000000"
               fill-opacity="1"
               d="M0,288L1440,288L1440,320L0,320Z"
             ></path>

@@ -1,4 +1,6 @@
+$tirenk: #000000;
 $irenk: #161d19;
+$ilahi: #ffffff;
 
 :root {
 	font-size: 16px;
@@ -14,31 +16,30 @@ html {
   height: 100%;
   box-sizing: border-box;
   overflow-x: auto;
+  overflow-y: auto;
 }
 
 body {
 	min-height: 100vh;
-	background-color: #7d7a4e;
+	background-color: $tirenk;
 }
 h1 {
-  color: $irenk;
+  color: $ilahi;
   font-family: Share Tech Mono;
 }
 h2 {
+  color: $ilahi;
   font-family: Montserrat;
 }
-.h2-utama {
-  color: $irenk;
-}
 p {
-  color: $irenk;
+  color: $ilahi;
   font-family: Kalam;
 }
 #Typed {
   font-family: montserrat;
   font-weight: 600;
   font-style: italic;
-  color: $irenk;
+  color: $ilahi;
 }
 a {
   text-decoration: none;
@@ -83,7 +84,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: #7d7a4e;
+  background-color: $tirenk;
   font-size: 18px;
   font-family: 'Montserrat';
   color: rgb(212, 212, 212);

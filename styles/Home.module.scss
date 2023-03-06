@@ -1,14 +1,18 @@
 $irenk: #161d19;
+$tirenk: #000000;
 $ilahi: #e0e0e0;
 $ijo: #347a3d;
+$biru: #050A30;
+$birulagi: #1863D6;
+$tope: #202026;
 
 .main {
   color: #ffffff;
   font-family: monospace;
 }
 .footer {
-  background-color: #ccc998;
-  color: #000000;
+  background-color: $tirenk;
+  color: $ilahi;
 }
 .footer a {
   display: flex;
@@ -77,7 +81,7 @@ $ijo: #347a3d;
     width: 100%;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
-    color: white;
+    color: $ilahi;
     opacity: 0;
     transition: 0.3s;
   }
@@ -98,7 +102,7 @@ $ijo: #347a3d;
 }
 .container {
   padding: 30px;
-  background-color: #303538;
+  background-color: $irenk;
   border-radius: 8px;
   box-shadow: 0px 0px 20px #00000011;
   width: 90%;
@@ -151,7 +155,7 @@ $ijo: #347a3d;
   margin: 0;
   display: grid;
   place-items: center;
-  background: #7d7a4e;
+  background: $tirenk;
 }
 .button_area {
   display: flex;
@@ -164,21 +168,17 @@ $ijo: #347a3d;
 .a {
   padding: 25px;
   margin: 1em 2.4em;
-  color: $ilahi;
+  color: $tope;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
-  background: $irenk;
+  background: $biru;
   transition: 0.75s;
 }
 
 .a:hover {
-  background: $ijo;
+  background: $birulagi;
   transition-duration: 0.5s;
   transition-delay: 0.125s;
-  color: $irenk;
-}
-
-.irenk {
-  color: $irenk;
+  color: $ilahi ;
 }
