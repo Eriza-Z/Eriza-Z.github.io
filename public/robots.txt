@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /github
+Disallow:
 
 Sitemap: https://erizazg.my.id/sitemap

@@ -268,13 +268,13 @@ export default function Gallery() {
           </a>
 
           <a
-            href="/Pajak-Pancur.jpg"
+            href="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB3CMRmhAPyKC0zxwZfzclvCp388HQtW55BrrdMqtBeSnXw-q5ik4J-AvkMuSm8ggmhChM-9nFHD1YXB-cndDw8lCzqw5oPJ3p3C3fAYJ100JaZ5Oso2S63YRiOztYDjP_hS1oaCSG1G8uysZhHTTOP_Yhn-iow_xT75WyWex8AD4px83VmBxpYlnTKxRWR3XYaIUkXP4u0Y-irGL6tg6GMTZv8fYso9eGCTaj4Q3gGurhfhEjusT0xO0iyEIlA4cLzCn9KP9NPVmkx0q1Vdogl84jDquL68qcGS7wTC7zlaYnNRd4NQhnmu7OteyCD5kkLjhuyYgv01-LvL75If3eE4-tBQeBFr2kjJDCvEP81-uDMmYJG1mox93gCKH2FFX_HNRyRu8uF2Hp8Jz_yRM2G4GV8Up6eZZwfAOFibzBO3cw/p.jpeg"
             target="_blank"
             className={style.gallery__link}
           >
             <figure className={style.gallery__thumb}>
               <Image
-                src="/Pajak-Pancur.jpg"
+                src="https://uc5db0b0419b362afbd63fedcdea.previews.dropboxusercontent.com/p/thumb/AB3CMRmhAPyKC0zxwZfzclvCp388HQtW55BrrdMqtBeSnXw-q5ik4J-AvkMuSm8ggmhChM-9nFHD1YXB-cndDw8lCzqw5oPJ3p3C3fAYJ100JaZ5Oso2S63YRiOztYDjP_hS1oaCSG1G8uysZhHTTOP_Yhn-iow_xT75WyWex8AD4px83VmBxpYlnTKxRWR3XYaIUkXP4u0Y-irGL6tg6GMTZv8fYso9eGCTaj4Q3gGurhfhEjusT0xO0iyEIlA4cLzCn9KP9NPVmkx0q1Vdogl84jDquL68qcGS7wTC7zlaYnNRd4NQhnmu7OteyCD5kkLjhuyYgv01-LvL75If3eE4-tBQeBFr2kjJDCvEP81-uDMmYJG1mox93gCKH2FFX_HNRyRu8uF2Hp8Jz_yRM2G4GV8Up6eZZwfAOFibzBO3cw/p.jpeg"
                 alt={"Pajak Pancur Batu"}
                 width={578}
                 height={370.5}
