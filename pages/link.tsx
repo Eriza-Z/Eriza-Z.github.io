@@ -62,8 +62,8 @@ export default function link() {
       <div className={style.content}>
         <div className="top-picture">
           <Image
-            src="https://uc3d237e59431d1971b838236c08.previews.dropboxusercontent.com/p/thumb/AB2K6jRtbgwrfdQfjvfn6OXq9fTpKAnI77pm083sqD5EbypMrG37bodSsX0tXzYrQp9vg86528Cwj4VS23hr7V4QbtuQ-YB23YnYddTeK-tsYrTUgimihwbld8mp_iOqxuJoFXSHoBiLcpp7GBaqwe4vHJhnfQz8NPoCJtehSENLO4CX9t2aSEVCluIUQ48v2GZbcuCPtMVD9O3aEzl7K3dX0AJ584tvEa1Sj8wLBgdegp1vz-jVczzhhEfZygxFG23XwsEeNOXbxEdvrZdEHbODIJUXepW7TiXB0SsMYE9EbLxN1zd2887lg6rwAv-sPvrPb_8HQAP5Ayjtr23VsU74d91Wu48j8NCBVbyW_pgNaj0gzEKACPY-zn7Sica1cxGHYuVlPreHuh35CZUeCJLX56R5enRPlLJxfqQxvH7tQfX0oX9sqtjY4fzXNIKlanEoX3XUBShOPUvRJpjJE3gz3oKI7l0yFMKKQLf4AmZoWw/p.jpeg"
-            alt="Pantai Pelawan"
+            src="https://lh3.googleusercontent.com/pw/AMWts8AVp6QdrFRP74rYqScn0Qp7Ytfr_p4DXneEFl6I4Y2GNq12Z-RrtPVv47K0qNjNLPlDU-EXNkEC9mvnYlVaUUIb9E6jKTCo9YuibEiON9TvbMDc-pEVPK6GVBl9vRPb2fnfbKbfw70EFRxjo5gKsGYA=w1740-h978-no"
+            alt="Lampu"
             width={578}
             height={260.5}
           />
