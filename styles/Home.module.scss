@@ -4,7 +4,6 @@ $ilahi: #e0e0e0;
 $ijo: #347a3d;
 $biru: #050A30;
 $birulagi: #1863D6;
-$tope: #202026;
 
 .main {
   color: #ffffff;
@@ -155,7 +154,7 @@ $tope: #202026;
   margin: 0;
   display: grid;
   place-items: center;
-  background: $tirenk;
+  // background: $tirenk;
 }
 .button_area {
   display: flex;
@@ -168,17 +167,16 @@ $tope: #202026;
 .a {
   padding: 25px;
   margin: 1em 2.4em;
-  color: $tope;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
-  background: $biru;
-  transition: 0.75s;
+  color: $irenk;
+  background: $irenk;
+  transition: transform 0.5s ease-in-out 0.125s, background-color 0.5s ease-in-out 0.125s, color 0.5s ease-in-out 0.125s;
 }
 
 .a:hover {
-  background: $birulagi;
-  transition-duration: 0.5s;
-  transition-delay: 0.125s;
+  transform: translateY(-10px);
+  background-color: $birulagi;
   color: $ilahi ;
 }

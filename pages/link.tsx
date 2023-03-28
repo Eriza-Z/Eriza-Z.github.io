@@ -62,10 +62,10 @@ export default function link() {
       <div className={style.content}>
         <div className="top-picture">
           <Image
-            src="https://lh3.googleusercontent.com/pw/AMWts8AVp6QdrFRP74rYqScn0Qp7Ytfr_p4DXneEFl6I4Y2GNq12Z-RrtPVv47K0qNjNLPlDU-EXNkEC9mvnYlVaUUIb9E6jKTCo9YuibEiON9TvbMDc-pEVPK6GVBl9vRPb2fnfbKbfw70EFRxjo5gKsGYA=w1740-h978-no"
+            src="https://mergoreb.sirv.com/Lampu.webp?w=578&h=260&q=75"
             alt="Lampu"
             width={578}
-            height={260.5}
+            height={260}
           />
         </div>
         <h1>Eriza Zehezkiel Gracia</h1>
