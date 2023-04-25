@@ -62,10 +62,10 @@ export default function link() {
       <div className={style.content}>
         <div className="top-picture">
           <Image
-            src="https://mergoreb.sirv.com/Lampu.webp?w=578&h=260&q=75"
-            alt="Lampu"
-            width={578}
-            height={260}
+            src="https://mergoreb.sirv.com/342528374_249077867495785_6629762286958889787_n.jpg?format=webp&q=100"
+            alt="Eriza Zehezkiel Gracia"
+            width={180}
+            height={180}
           />
         </div>
         <h1>Eriza Zehezkiel Gracia</h1>
@@ -74,15 +74,20 @@ export default function link() {
           <a
             href="https://www.instagram.com/erizazg/"
             className={style.a}
-            target={"_blank"}
             rel="noopenner noreferrer"
           >
             Instagram
           </a>
           <a
+            href="https://www.github.com/Eriza-Z/"
+            className={style.a}
+            rel="noopenner noreferrer"
+          >
+            GitHub
+          </a>
+          <a
             href="https://discord.com/invite/8EfZSbg5s6"
             className={style.a}
-            target={"_blank"}
             rel="noopenner noreferrer"
           >
             Discord
@@ -93,7 +98,6 @@ export default function link() {
           <a
             href="https://steamcommunity.com/id/AZvP"
             className={style.a}
-            target={"_blank"}
             rel="noopenner noreferrer"
           >
             Steam

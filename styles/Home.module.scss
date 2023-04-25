@@ -91,64 +91,6 @@ $birulagi: #1863D6;
     display: none;
   }
 }
-
-// Password Generator
-.border {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Raleway;
-}
-.container {
-  padding: 30px;
-  background-color: $irenk;
-  border-radius: 8px;
-  box-shadow: 0px 0px 20px #00000011;
-  width: 90%;
-  max-width: 400px;
-}
-.field input[type="number"] {
-  width: 6rem;
-  height: 40px;
-  outline: none;
-  border: none;
-  padding: 10px;
-  padding-right: 0px;
-  font-size: 16px;
-  background-color: rgb(241, 241, 241);
-  border-radius: 4px;
-}
-.field {
-  height: 40px;
-  margin-top: 5px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 10px;
-  transition: 0.3s ease background-color;
-}
-.field:first-of-type {
-  padding-right: 0;
-}
-.field:hover {
-  background-color: rgb(26, 29, 31);
-}
-.field label {
-  width: 100%;
-  padding: 10px;
-  cursor: pointer;
-}
-.field input {
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 678px) {
-  .field {
-    font-size: 16px;
-  }
-}
-
 // Link-in-bio
 .content {
   margin: 0;
@@ -170,13 +112,15 @@ $birulagi: #1863D6;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
-  color: $irenk;
-  background: $irenk;
+  color: $ilahi;
+  background: $biru;
+  border-radius: 16px;
+  border: #161d19 groove;
   transition: transform 0.5s ease-in-out 0.125s, background-color 0.5s ease-in-out 0.125s, color 0.5s ease-in-out 0.125s;
 }
 
 .a:hover {
   transform: translateY(-10px);
   background-color: $birulagi;
-  color: $ilahi ;
+  color: $ilahi;
 }

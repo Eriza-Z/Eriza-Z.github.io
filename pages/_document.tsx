@@ -12,7 +12,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://use.typekit.net/tfm5ykq.css" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet"></link>
         <noscript>
-            I respect your privacy, but you need to turn on Script for full experience in this web, because the web is made from NextJS.
+            I respect your privacy, but you need to turn on Script for full experience in this web, because the web is made with NextJS.
         </noscript>
       </Head>
       <body>
