@@ -1,6 +1,6 @@
-$tirenk: #000000;
-$irenk: #161d19;
-$ilahi: #ffffff;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
 	font-size: 16px;
@@ -21,25 +21,25 @@ html {
 
 body {
 	min-height: 100vh;
-	background-color: $tirenk;
+	background-color: #000000;
 }
 h1 {
-  color: $ilahi;
+  color: #ffffff;
   font-family: Share Tech Mono;
 }
 h2 {
-  color: $ilahi;
+  color: #ffffff;
   font-family: Montserrat;
 }
 p {
-  color: $ilahi;
+  color: #ffffff;
   font-family: Kalam;
 }
 #Typed {
   font-family: montserrat;
   font-weight: 600;
   font-style: italic;
-  color: $ilahi;
+  color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -67,3 +67,18 @@ h2{font-size:calc(1.325rem + .9vw)}
 @media (min-width:1200px) {h2{font-size:2rem}} 
 h3{font-size:calc(1.3rem + .6vw)}
 @media (min-width:1200px) {h3{font-size:1.75rem}}
+
+// Parallax - About
+.about {
+  background-image: url("https://images.unsplash.com/photo-1682361370648-521dce49abb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .about {
+    background-attachment: scroll;
+  }
+}

@@ -93,7 +93,7 @@ export default function Home() {
           <Image
             src="https://mergoreb.sirv.com/ErZ.webp?w=324&h=150&scale.option=noup&format=webp&q=100"
             alt="ErZ"
-            className="Sirv img-fluid lazy"
+            className="Sirv img-fluid lazy pt-2"
             id="HeroImage"
             width={324}
             height={150}
@@ -104,11 +104,10 @@ export default function Home() {
           <h2 className="display-4 animate__animated animate__lightSpeedInLeft h2-utama">
             I&apos;m <span ref={el} id="Typed"></span>
           </h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 225">
             <path
               fill="#000000"
               fillOpacity="1"
-              d="M0,288L1440,288L1440,320L0,320Z"
             ></path>
           </svg>
         </div>

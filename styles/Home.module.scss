@@ -21,7 +21,7 @@ $birulagi: #1863D6;
 }
 // Gallery
 .grid {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -86,7 +86,7 @@ $birulagi: #1863D6;
   }
 }
 
-@media all and (orientation: portrait) {
+@media all and (max-width: 578px) {
   .gallery {
     display: none;
   }

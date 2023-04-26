@@ -66,6 +66,7 @@ export default function link() {
             alt="Eriza Zehezkiel Gracia"
             width={180}
             height={180}
+            className="rounded-full"
           />
         </div>
         <h1>Eriza Zehezkiel Gracia</h1>
@@ -88,9 +89,18 @@ export default function link() {
           <a
             href="https://discord.com/invite/8EfZSbg5s6"
             className={style.a}
+            target="_blank"
             rel="noopenner noreferrer"
           >
-            Discord
+            Kok Bisa Discord Server
+          </a>
+          <a
+            href="https://discord.gg/nmCSQRHr"
+            className={style.a}
+            target="_blank"
+            rel="noopenner noreferrer"
+          >
+            My Discord Server
           </a>
         </div>
         <h2>Game</h2>

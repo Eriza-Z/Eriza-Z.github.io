@@ -5,13 +5,13 @@ import { useEffect } from "react";
 
 export default function Gallery() {
   useEffect(() => {
-    if (window.innerHeight > window.innerWidth) {
-      alert("To see this page content, please use Landscape mode, if the content didn't show up, please refresh the page after changing your phone orientation to Landscape.");
+    if (window.innerWidth < 578) {
+      alert("To see this page content, please use Landscape mode, because the minimum width to see this page content is 578 Pixel. And if the content didn't show up, please refresh the page after changing your phone orientation to Landscape.");
     }
   }, []);
 
   return (
-    <div>
+    <div className="scroll-smooth">
       <Head>
         {/* Web Property */}
         <title>Eriza Zehezkiel Gracia - Gallery</title>
@@ -94,7 +94,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/Co3pqg4SCHK/"
+            href="https://www.instagram.com/p/CrXk8sZOt02/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -113,7 +113,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/Co3pqg4SCHK/"
+            href="https://www.instagram.com/p/CrXk8sZOt02/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -133,7 +133,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="flip-right">
           <a
-            href="https://www.instagram.com/p/Co3pqg4SCHK/"
+            href="https://www.instagram.com/p/CrXk8sZOt02/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -152,7 +152,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/Co3pqg4SCHK/"
+            href="https://www.instagram.com/p/CrXk8sZOt02/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -171,7 +171,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/Co3pqg4SCHK/"
+            href="https://www.instagram.com/p/CrXk8sZOt02/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -191,7 +191,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-left">
           <a
-            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
+            href="https://www.instagram.com/p/CrXULFOPRYg/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -210,7 +210,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
+            href="https://www.instagram.com/p/CrXULFOPRYg/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -229,7 +229,7 @@ export default function Gallery() {
           </a>
 
           <a
-            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
+            href="https://www.instagram.com/p/CrXULFOPRYg/"
             target="_blank"
             className={style.gallery__link}
           >
@@ -249,7 +249,7 @@ export default function Gallery() {
         </div>
         <div className={style.gallery__column} data-aos="fade-right">
           <a
-            href="https://www.instagram.com/p/CoYYRtxy8Ql/"
+            href="https://www.instagram.com/p/CrXULFOPRYg/"
             target="_blank"
             className={style.gallery__link}
           >
