@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
+import Footer from "../Components/Footer"
 
 export default function Home() {
   const el = useRef(null);
@@ -112,14 +112,7 @@ export default function Home() {
           </svg>
         </div>
       </main>
-      <footer className={"tengah"}>
-        <p className="putih">
-          Hope You All Have A Good Day<br />
-          And, don't forget to check the other page!<br/>
-          <a href="/link">Link</a> | <a href="/Gallery">Gallery</a><br/>
-          {"La Vida No Enjusta, La Vie Est Enjuste"}
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -67,6 +68,7 @@ export default function Home() {
           I'm not a kind of creative thinker, but have a lot of stupid and unnecessary idea.
         </p>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -75,14 +75,6 @@ export default function E500() {
           </svg>
         </div>
       </main>
-      <footer className={"tengah"}>
-        <h1>
-          <strong>Error: 500 Server-Side Error</strong>
-        </h1>
-        <q className="putih">
-        La Vida No Esjusta. La Vie Est Enjusta
-        </q>
-      </footer>
     </div>
   );
 }

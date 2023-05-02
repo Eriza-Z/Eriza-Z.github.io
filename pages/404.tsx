@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Link from "next/link";
+import Footer from "../Components/Footer";
 
 export default function E404() {
   return (
@@ -71,14 +72,7 @@ export default function E404() {
           </svg>
         </div>
       </main>
-      <footer className={"tengah bottom-2"}>
-        <h1 className="mb-4">
-          <strong>Error: 404 Not Found</strong>
-        </h1>
-        <q className="putih">
-        La Vida No Esjusta. La Vie Est Enjusta
-        </q>
-      </footer>
+      <Footer/>
     </div>
   );
 }

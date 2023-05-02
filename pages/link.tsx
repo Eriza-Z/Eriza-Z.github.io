@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import style from "../styles/Home.module.scss";
+import Footer from "../Components/Footer";
 
 export default function link() {
   return (
@@ -62,7 +63,7 @@ export default function link() {
       <div className={style.content}>
         <div className="top-picture">
           <Image
-            src="https://mergoreb.sirv.com/342528374_249077867495785_6629762286958889787_n.jpg?format=webp&q=100"
+            src="https://mergoreb.sirv.com/EZ.png?w=320&h=320&format=webp&q=100"
             alt="Eriza Zehezkiel Gracia"
             width={180}
             height={180}
@@ -73,7 +74,7 @@ export default function link() {
         <h2>Social Media</h2>
         <div className={style.button_area}>
           <a
-            href="https://www.instagram.com/erizazg/"
+            href="https://www.instagram.com/ezgrxs/"
             className={style.a}
             rel="noopenner noreferrer"
           >
@@ -114,6 +115,7 @@ export default function link() {
           </a>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
