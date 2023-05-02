@@ -75,6 +75,12 @@ export default function E500() {
           </svg>
         </div>
       </main>
+      <footer>
+        <p className="tengah">
+          Error: 500<br/>
+          Type: Server Error
+        </p>
+      </footer>
     </div>
   );
 }
