@@ -1,13 +1,20 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import Footer from "../Components/Other/Footer";
-import About from "../Components/Page/About"
+import ImGallery from"../Components/Page/Gallery";
 
-export default function Home() {
+export default function Gallery() {
+  useEffect(() => {
+    if (window.innerWidth < 578) {
+      alert("To see this page content, please use Landscape mode.");
+    }
+  }, []);
+
   return (
-    <div>
+    <div className="scroll-smooth">
       <Head>
         {/* Web Property */}
-        <title>ErZ - About</title>
+        <title>Eriza Zehezkiel Gracia - Gallery</title>
         <meta charSet="UTF-8" />
         <meta
           name="viewport"
@@ -19,7 +26,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Personal Website of Eriza Zehezkiel Gracia Main Page"
+          content="Eriza Zehezkiel Gracia Gallery Page"
         />
         <meta name="author" content="Eriza Zehezkiel Gracia" />
         <link rel="icon" href="/favicon.ico" />
@@ -27,8 +34,11 @@ export default function Home() {
         <meta property="og:site_name" content="ErZ" />
         <meta property="og:title" content="ErZ" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="About ErZ." />
-        <meta property="og:url" content="https://erizazg.my.id/about" />
+        <meta
+          property="og:description"
+          content="Eriza Zehezkiel Gracia Gallery Page."
+        />
+        <meta property="og:url" content="https://erizazg.my.id/Gallery" />
         <meta
           property="og:image"
           content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
@@ -46,9 +56,12 @@ export default function Home() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id/about" />
+        <meta name="twitter:url" content="https://erizazg.my.id/Gallery" />
         <meta name="twitter:title" content="ErZ" />
-        <meta name="twitter:description" content="About ErZ." />
+        <meta
+          name="twitter:description"
+          content="Eriza Zehezkiel Gracia Gallery Page"
+        />
         <meta
           name="twitter:image"
           content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
@@ -57,9 +70,9 @@ export default function Home() {
         {/* Apple */}
         <link rel="apple-touch-icon" href="../public/apple-touch-icon.png" />
         {/* Canonical */}
-        <link rel="canonical" href="https://erizazg.my.id/about" />
+        <link rel="canonical" href="https://erizazg.my.id/Gallery" />
       </Head>
-      <About/>
+      <ImGallery/>
       <Footer/>
     </div>
   );

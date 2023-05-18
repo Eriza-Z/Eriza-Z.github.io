@@ -96,7 +96,6 @@ $birulagi: #1863D6;
   margin: 0;
   display: grid;
   place-items: center;
-  // background: $tirenk;
 }
 .button_area {
   display: flex;
@@ -123,4 +122,16 @@ $birulagi: #1863D6;
   transform: translateY(-10px);
   background-color: $birulagi;
   color: $ilahi;
+}
+
+@media all and (max-width: 425px) {
+  .button_area .a {
+    width: 375px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .button_area .a {
+    width: 325px;
+  }
 }

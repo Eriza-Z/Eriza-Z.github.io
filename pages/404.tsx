@@ -1,7 +1,6 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
-import Link from "next/link";
-import Footer from "../Components/Footer";
+import Footer from "../Components/Other/Footer";
+import Er404 from "../Components/Error/404"
 
 export default function E404() {
   return (
@@ -52,26 +51,7 @@ export default function E404() {
         <meta name="author" content="Eriza Zehezkiel Gracia" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className="hero tengah">
-          <h1 className="display-4 animate__animated animate__lightSpeedInRight mt-4 md-4">
-            Looks Like The Page You Looking For Is Not Available
-          </h1>
-          <h2 className="display-4 animate__animated animate__lightSpeedInLeft mt-4 md-4">
-            But Don&apos;t worry,{" "}
-            <Link href="/">
-              <em>Click Here To Go To Main Page</em>
-            </Link>
-          </h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320">
-            <path
-              fill="#000000"
-              fill-opacity="1"
-              d="M0,288L1440,288L1440,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-      </main>
+      <Er404/>
       <Footer/>
     </div>
   );
