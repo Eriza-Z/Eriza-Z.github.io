@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../Components/Other/Footer"
-import Tech from "../Components/Tech";
+import Tech from "../Components/Page/Tech";
 
 function technology() {
   return (
