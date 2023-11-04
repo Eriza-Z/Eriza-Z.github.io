@@ -40,7 +40,7 @@ export default function Home() {
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
-        <meta property="og:image:alt" content="Foto lorong kelas" />
+        <meta property="og:image:alt" content="Eriza Zehezkiel Gracia" />
         <meta name="theme-color" content="#080452" />
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary" />
