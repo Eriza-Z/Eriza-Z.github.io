@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <section className="justify-between bg-green-900">
+    <section id='mindmap' className="justify-between">
       <Head>
         {/* Web Property */}
         <title>Tugas Mind Mapping</title>

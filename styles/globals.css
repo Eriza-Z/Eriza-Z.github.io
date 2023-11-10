@@ -25,6 +25,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color: white;
 }
+#mindmap {
+  background-color: #072541;
+}
 #Typed {
   font-weight: 600;
   //font-style: italic;

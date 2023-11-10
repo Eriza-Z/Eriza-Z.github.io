@@ -21,7 +21,11 @@ function Bingmap() {
           subordinating conjunction, such as "if," "unless," or "provided that."
         </p>
       </div>
-      <div id="tipe" className="text-start items-end mt-4 mb-8" data-aos="fade-left">
+      <div
+        id="tipe"
+        className="text-start items-end mt-4 mb-8"
+        data-aos="fade-left"
+      >
         <h2>Type of Conditional Sentence</h2>
         <h3 className="pt-2">
           There are 4 types of conditional sentence:
@@ -51,40 +55,56 @@ function Bingmap() {
           </p>
           4. Type-3/Third Conditional
           <p className="text-clip ml-8 my-2">
-            This conditional type used to express an unreal or unlikely condition in the past and its probable
-            result in the past. They are typically used to express regrets or to
-            speculate about what would have happened if things had been
-            different.
+            This conditional type used to express an unreal or unlikely
+            condition in the past and its probable result in the past. They are
+            typically used to express regrets or to speculate about what would
+            have happened if things had been different.
           </p>
-          The probability of the result happening in each type of conditional sentence varies. Zero conditional sentences have a probability of 100%, because they express general truths that are always true. First conditional sentences have a probability of 50-100%, depending on how likely it is that the condition will be met. Second conditional sentences have a probability of 0-50%, because the condition is hypothetical or unlikely. Third conditional sentences have a probability of 0%, because the condition did not happen.
+          The probability of the result happening in each type of conditional
+          sentence varies. Zero conditional sentences have a probability of
+          100%, because they express general truths that are always true. First
+          conditional sentences have a probability of 50-100%, depending on how
+          likely it is that the condition will be met. Second conditional
+          sentences have a probability of 0-50%, because the condition is
+          hypothetical or unlikely. Third conditional sentences have a
+          probability of 0%, because the condition did not happen.
         </h4>
       </div>
-      <div id='perumusan' className="text-start mt-4 mb-4" data-aos='fade-right'>
+      <div
+        id="perumusan"
+        className="text-start mt-4 mb-4"
+        data-aos="fade-right"
+      >
         <h2>Pattern of the Conditional</h2>
         <h3 className="pt-2">The pattern for conditional are:</h3>
         <h4 className="pt-2">
-        Type 0: If + simple present, simple present<br/>
-        Type 1: If + simple present, will + infinitive<br/>
-        Type 2: If + past simple, would + infinitive<br/>
-        Type 3: If + had + past participle, would have + past participle
+          Type 0: If + simple present, simple present
+          <br />
+          Type 1: If + simple present, will + infinitive
+          <br />
+          Type 2: If + past simple, would + infinitive
+          <br />
+          Type 3: If + had + past participle, would have + past participle
         </h4>
       </div>
-      <div id='contoh' className="text-start mt-4" data-aos='fade-right'>
+      <div id="contoh" className="text-start mt-4" data-aos="fade-right">
         <h2>Example of the Conditional Sentence</h2>
-        <h3 className="pt-2">
-          <h4 className='my-1'>
-          Type 0: If an object is dropped from a sufficient height, it will accelerate at the rate of 9.81 meters per second squared.
-          </h4>
-          <h4 className='my-1'>
-          Type 1: If the patient takes the medication as prescribed, their symptoms should improve within a week.
-          </h4>
-          <h4 className='my-1'>
-            Type 2: If I could go back in time, I would change some of the decisions I made.
-          </h4>
-          <h4 className='my-1'>
-            Type 3: If the company had not made a strategic mistake, it would not have lost money last quarter.
-          </h4>
-        </h3>
+        <h4 className="pt-2 my-1">
+          Type 0: If an object is dropped from a sufficient height, it will
+          accelerate at the rate of 9.81 meters per second squared.
+        </h4>
+        <h4 className="my-1">
+          Type 1: If the patient takes the medication as prescribed, their
+          symptoms should improve within a week.
+        </h4>
+        <h4 className="my-1">
+          Type 2: If I could go back in time, I would change some of the
+          decisions I made.
+        </h4>
+        <h4 className="my-1">
+          Type 3: If the company had not made a strategic mistake, it would not
+          have lost money last quarter.
+        </h4>
       </div>
     </section>
   );
