@@ -4,7 +4,7 @@ import styles from "../../styles/Home.module.scss";
 function Er500() {
   return (
     <main className={styles.main}>
-        <div className="hero tengah">
+        <div className="text-center text-white">
           <h1 className="top-4 bottom-4">
             This Is Error Page For <strong>Error 500: Server-Side Error</strong>
           </h1>

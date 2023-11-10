@@ -5,11 +5,11 @@ import Link from "next/link";
 function Er404() {
   return (
     <main className={styles.main}>
-        <div className="hero tengah">
-          <h1 className="display-4 animate__animated animate__lightSpeedInRight mt-4 md-4">
+        <div className="text-center text-white">
+          <h1 className="animate__animated animate__lightSpeedInRight mt-4 md-4">
             Looks Like The Page You Looking For Is Not Available
           </h1>
-          <h2 className="display-4 animate__animated animate__lightSpeedInLeft mt-4 md-4">
+          <h2 className="animate__animated animate__lightSpeedInLeft mt-4 md-4">
             But Don&apos;t worry,{" "}
             <Link href="/">
               <em>Click Here To Go To Main Page</em>

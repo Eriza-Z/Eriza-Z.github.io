@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <div className="text-white tengah">
+      <div className="text-white text-center justify-between">
         Copyright © 2023 <a href="https://instagram.com/ezgrxs" rel="noopenner noreferrer">Eriza Zehezkiel Gracia</a>
         <br />
         <Link href={"/about"}>About</Link> | <Link href={"/link"}>Link</Link> | <Link href={"/Gallery"}>Gallery</Link> | <Link href={"/technology"}>Technology</Link><br/>

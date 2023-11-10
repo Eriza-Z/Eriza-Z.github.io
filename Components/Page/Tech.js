@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tech() {
   return (
-    <div className="tengah text-white pt-6">
+    <div className="text-center text-white pt-6">
         <h1>Technology Used:</h1>
         <h2 className="pt-4 font-medium">Web Framework: </h2>
         <p className="pb-6 font-light">

@@ -31,19 +31,19 @@ function Depan() {
   }, []);
   return (
     <main className={styles.main}>
-        <div className="hero tengah">
+        <div className="hero text-center">
           <Image
             src="https://mergoreb.sirv.com/ErZ.webp?w=324&h=150&scale.option=noup&format=webp&q=100"
             alt="ErZ"
-            className="Sirv img-fluid lazy pt-2"
+            className="Sirv lazy pt-2"
             id="HeroImage"
             width={324}
             height={150}
           />
-          <h1 className="display-4 animate__animated animate__lightSpeedInRight">
+          <h1 className="animate__animated animate__lightSpeedInRight">
             Eriza Zehezkiel Gracia.
           </h1>
-          <h2 className="display-4 animate__animated animate__lightSpeedInLeft h2-utama">
+          <h2 className="animate__animated animate__lightSpeedInLeft">
             I&apos;m <span ref={el} id="Typed"></span>
           </h2>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 225">

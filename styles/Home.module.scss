@@ -20,31 +20,20 @@ $birulagi: #1863D6;
   flex-grow: 1;
 }
 // Gallery
-.grid {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
 .gallery {
   display: grid;
-  padding: 2px;
+  margin: 8px;
   transition: 0.3s;
-  justify-content: center;
+  grid-template-columns: 375px 375px 375px;
+  place-items: center;
+  width: clamp(600px, 50%, 1200px);
 
   &:hover &__image {
     filter: grayscale(1);
   }
 
-  &__column {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
-
   &__link {
-    margin: 2px;
+    margin: 1rem;
     overflow: hidden;
 
     &:hover {
@@ -85,12 +74,6 @@ $birulagi: #1863D6;
     transition: 0.3s;
   }
 }
-
-@media all and (max-width: 578px) {
-  .gallery {
-    display: none;
-  }
-}
 // Link-in-bio
 .content {
   margin: 0;
@@ -103,11 +86,11 @@ $birulagi: #1863D6;
   margin: 10px auto;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 500px;
+  width: clamp(250px, 50%, 500px);
 }
 .a {
   padding: 25px;
-  margin: 1em 2.4em;
+  margin: 1em 1em;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
@@ -122,16 +105,4 @@ $birulagi: #1863D6;
   transform: translateY(-10px);
   background-color: $birulagi;
   color: $ilahi;
-}
-
-@media all and (max-width: 425px) {
-  .button_area .a {
-    width: 375px;
-  }
-}
-
-@media all and (max-width: 375px) {
-  .button_area .a {
-    width: 325px;
-  }
 }

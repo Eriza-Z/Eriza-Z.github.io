@@ -1,4 +1,10 @@
+User-agent: googlebot-image
+Disallow: /
+User-agent: psbot
+Disallow: /
 User-agent: *
-Disallow:
-
-Sitemap: https://erizazg.my.id/sitemap
+Disallow: 
+Disallow: /link
+Disallow: /Gallery
+Disallow: /about
+Disallow: /technology
