@@ -4,7 +4,7 @@ import style from "../../styles/Home.module.scss";
 
 function Link() {
   return (
-    <div className={style.content}>
+    <div className='grid place-items-center'>
         <div className="top-picture">
           <Image
             src="https://mergoreb.sirv.com/EZ.png?w=320&h=320&format=webp&q=100"
@@ -30,22 +30,6 @@ function Link() {
             rel="noopenner noreferrer"
           >
             GitHub
-          </a>
-          <a
-            href="https://discord.com/invite/8EfZSbg5s6"
-            className={style.a}
-            target="_blank"
-            rel="noopenner noreferrer"
-          >
-            Kok Bisa Discord Server
-          </a>
-          <a
-            href="https://discord.gg/nmCSQRHr"
-            className={style.a}
-            target="_blank"
-            rel="noopenner noreferrer"
-          >
-            My Discord Server
           </a>
         </div>
         <h2>Game</h2>
