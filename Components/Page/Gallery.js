@@ -228,25 +228,6 @@ function ImGallery() {
             </figcaption>
           </figure>
         </a>
-
-        <a
-          href="https://lh3.googleusercontent.com/pw/AMWts8DgENbfSrtVO7daMlDjUMAzYQnrxfIa9JN-5_2ttikl5UDeSw2feFNDItATDbYSIAPNSeozdoqsMX-Z9paePD3pGCVPcmzJ7XIxRk7CQrkkSifENU5LBz7WrErQw_ntx6corKUFJe167QDSl7Xu5BFq=w1769-h995-s-no"
-          target="_blank"
-          className={style.gallery__link}
-        >
-          <figure className={style.gallery__thumb}>
-            <Image
-              src="https://lh3.googleusercontent.com/pw/AMWts8DgENbfSrtVO7daMlDjUMAzYQnrxfIa9JN-5_2ttikl5UDeSw2feFNDItATDbYSIAPNSeozdoqsMX-Z9paePD3pGCVPcmzJ7XIxRk7CQrkkSifENU5LBz7WrErQw_ntx6corKUFJe167QDSl7Xu5BFq=w1769-h995-s-no"
-              alt={"Berastagi"}
-              width={578}
-              height={370.5}
-              className={style.gallery__image}
-            />
-            <figcaption className={style.gallery__caption}>
-              Berastagi
-            </figcaption>
-          </figure>
-        </a>
       </div>
       <div className={style.gallery__column}>
         <a
@@ -307,6 +288,24 @@ function ImGallery() {
         </a>
       </div>
       <div className={style.gallery__column}>
+      <a
+          href="https://lh3.googleusercontent.com/pw/AMWts8DgENbfSrtVO7daMlDjUMAzYQnrxfIa9JN-5_2ttikl5UDeSw2feFNDItATDbYSIAPNSeozdoqsMX-Z9paePD3pGCVPcmzJ7XIxRk7CQrkkSifENU5LBz7WrErQw_ntx6corKUFJe167QDSl7Xu5BFq=w1769-h995-s-no"
+          target="_blank"
+          className={style.gallery__link}
+        >
+          <figure className={style.gallery__thumb}>
+            <Image
+              src="https://lh3.googleusercontent.com/pw/AMWts8DgENbfSrtVO7daMlDjUMAzYQnrxfIa9JN-5_2ttikl5UDeSw2feFNDItATDbYSIAPNSeozdoqsMX-Z9paePD3pGCVPcmzJ7XIxRk7CQrkkSifENU5LBz7WrErQw_ntx6corKUFJe167QDSl7Xu5BFq=w1769-h995-s-no"
+              alt={"Berastagi"}
+              width={578}
+              height={370.5}
+              className={style.gallery__image}
+            />
+            <figcaption className={style.gallery__caption}>
+              Berastagi
+            </figcaption>
+          </figure>
+        </a>
         <a
           href="https://lh3.googleusercontent.com/pw/AMWts8Dv5T0ibI440JJvJ2wKFWZsUbGBr3MvkgkbkcMJgGjKkdK44aE3eGJoauWW1aCht70_fKGBso03T9PYZajWV5Re_PbVp567qJ9smmCQ-KqxlulDIVo-Y5KyqQlTzE5jnlVc7h3I_G6ln4pexMckBNJP=w1769-h995-s-no"
           target="_blank"
