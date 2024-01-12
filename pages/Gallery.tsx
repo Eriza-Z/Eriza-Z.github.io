@@ -4,12 +4,6 @@ import Footer from "../Components/Other/Footer";
 import ImGallery from"../Components/Page/Gallery";
 
 export default function Gallery() {
-  useEffect(() => {
-    if (window.innerWidth < 578) {
-      alert("To see this page content, please use Landscape mode.");
-    }
-  }, []);
-
   return (
     <div className="scroll-smooth">
       <Head>
