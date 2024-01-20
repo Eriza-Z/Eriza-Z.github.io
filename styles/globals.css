@@ -20,8 +20,7 @@ html {
 }
 
 body {
-	min-height: 100vh;
-	background-color: #000000;
+	background-image: linear-gradient(to right bottom, #444e5d, #3e4959, #394455, #333f52, #2e3a4e, #23394e, #15394c, #00384a, #003b42, #003c32, #0a3b1d, #283804);
   font-family: 'Poppins', sans-serif;
   color: white;
 }

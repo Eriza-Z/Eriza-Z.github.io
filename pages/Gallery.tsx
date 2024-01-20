@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { useEffect } from "react";
 import Footer from "../Components/Other/Footer";
 import ImGallery from"../Components/Page/Gallery";
 
