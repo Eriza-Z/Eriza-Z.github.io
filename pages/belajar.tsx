@@ -15,19 +15,19 @@ export default function link() {
         />
         <meta
           name="keywords"
-          content="Eriza Zehezkiel, Eriza Z, Eriza Zehezkiel Gracia, EZGS, ezgs"
+          content="Eriza Zehezkiel, Eriza Z, ErZ, EZGS, ezgs"
         />
         <meta
           name="description"
-          content="Eriza Zehezkiel Gracia Link Belajar"
+          content="ErZ Link Belajar"
         />
-        <meta name="author" content="Eriza Zehezkiel Gracia" />
+        <meta name="author" content="ErZ" />
         <link rel="icon" href="/favicon.ico" />
         {/* OpenGraph */}
-        <meta property="og:site_name" content="Eriza Zehezkiel Gracia" />
-        <meta property="og:title" content="Eriza Zehezkiel Gracia" />
+        <meta property="og:site_name" content="ErZ" />
+        <meta property="og:title" content="ErZ" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Eriza Zehezkiel Gracia Webpage." />
+        <meta property="og:description" content="ErZ Webpage." />
         <meta property="og:url" content="https://erizazg.my.id/belajar" />
         <meta
           property="og:image"
@@ -47,8 +47,8 @@ export default function link() {
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
         <meta name="twitter:url" content="https://erizazg.my.id/link" />
-        <meta name="twitter:title" content="Eriza Zehezkiel Gracia" />
-        <meta name="twitter:description" content="Eriza Zehezkiel Gracia Link Webpage." />
+        <meta name="twitter:title" content="ErZ" />
+        <meta name="twitter:description" content="ErZ Link Webpage." />
         <meta
           name="twitter:image"
           content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
