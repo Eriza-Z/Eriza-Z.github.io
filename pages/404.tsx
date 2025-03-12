@@ -52,7 +52,6 @@ export default function E404() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Er404/>
-      <Footer/>
     </div>
   );
 }

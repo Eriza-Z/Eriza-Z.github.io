@@ -7,8 +7,8 @@ function About() {
         <h1 className="mb-12">Eriza Zehezkiel Gracia</h1>
       </div>
       <p>
-        I am a High School Student from Indonesia, currently at 4th semester of
-        my school, and I'm a teenager
+        I am a High School Student from Indonesia, currently at 6th semester of
+        my school (God, time fly so fast isn't it?), and I'm a teenager
       </p>
       <p>
         I love reading, listening music, and playing games.<br/>

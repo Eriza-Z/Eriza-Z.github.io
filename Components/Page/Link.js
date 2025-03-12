@@ -14,8 +14,8 @@ function Link() {
             className="rounded-full"
           />
         </div>
-        <h1>Eriza Zehezkiel Gracia</h1>
-        <h2>Social Media</h2>
+        <h1 className='mb-2 pt-4'>Eriza Zehezkiel Gracia</h1>
+        <h2 className='my-2'>Social Media</h2>
         <div className={style.button_area}>
           <a
             href="https://www.instagram.com/ezgrxs/"
@@ -32,14 +32,24 @@ function Link() {
             GitHub
           </a>
         </div>
-        <h2>Game</h2>
+        <h2 className='mt-2 mb-2.5'>Game</h2>
         <div className={style.button_area}>
           <a
-            href="https://steamcommunity.com/id/AZvP"
+            href="https://steamcommunity.com/id/ErXZ"
             className={style.a}
             rel="noopenner noreferrer"
           >
             Steam
+          </a>
+        </div>
+        <h2 className='mt-2 mb-2.5'>Others</h2>
+        <div className={style.button_area}>
+          <a
+            href="https://link.erizazg.my.id/Musik"
+            className={style.a}
+            rel="noopenner noreferrer"
+          >
+            Music Collection
           </a>
         </div>
       </div>

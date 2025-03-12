@@ -4,7 +4,7 @@ Web Maker
 	From: Kepulauan Riau, Indonesia
 
 Site Information
-	Last update: 02/05/2023 DD-MM-YYYY
+	Last update: 12/03/2025 DD-MM-YYYY
 	Language: Indonesia
 	Doctype: HTML5
 	IDE: Visual Studio Code
