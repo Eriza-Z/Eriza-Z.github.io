@@ -46,7 +46,7 @@ export default function link() {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@eriza_gracia" />
         <meta name="twitter:creator" content="@eriza_gracia" />
-        <meta name="twitter:url" content="https://erizazg.my.id/link" />
+        <meta name="twitter:url" content="https://erizazg.my.id/belajar" />
         <meta name="twitter:title" content="ErZ" />
         <meta name="twitter:description" content="ErZ Link Webpage." />
         <meta
