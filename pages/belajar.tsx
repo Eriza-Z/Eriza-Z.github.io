@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "../Components/Other/Footer";
+import FooterBelajar from "../Components/Other/Footer-belajar";
 import Belajar from "../Components/Page/Belajar"
 
 export default function link() {
@@ -60,6 +60,7 @@ export default function link() {
         <link rel="canonical" href="https://erizazg.my.id/belajar" />
       </Head>
       <Belajar/>
+      <FooterBelajar/>
     </div>
   );
 }
