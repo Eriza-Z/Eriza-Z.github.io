@@ -7,6 +7,7 @@ function FooterBelajar() {
       <div className="text-center place-items-center overflow-hidden m-auto">
         Credit: <a href="https://x.com/al_studytwt" rel="noopenner noreferrer">Al Study Tweet</a>
         <br />
+        Made By: <Link href="https://instagram.com/ezgrxs">Eriza</Link>
       </div>
     </div>
   );
