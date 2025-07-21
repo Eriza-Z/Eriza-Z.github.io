@@ -22,7 +22,7 @@ function Depan() {
       backDelay: 250,
       loop: true,
       showCursor: true,
-      cursorChar: "!",
+      cursorChar: "",
     });
     // Destroying
     return () => {
@@ -46,12 +46,12 @@ function Depan() {
           <h2 className="animate__animated animate__lightSpeedInLeft">
             I&apos;m <span ref={el} id="Typed"></span>
           </h2>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 225">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 225">
             <path
               fill="#000000"
               fillOpacity="1"
             ></path>
-          </svg>
+          </svg> */}
         </div>
       </main>
   )
