@@ -6,13 +6,6 @@ function Belajar() {
     <div className='grid place-items-center m-auto'>
         <div className={style.button_area}>
           <a
-            href="https://drive.google.com/drive/folders/1rYY_M0XxqijFuSNoGeY7o8rTrf1PdD3q?usp=sharing"
-            className={style.a}
-            rel="noopenner noreferrer"
-          >
-            Belajar UTBK 2025
-          </a>
-          <a
             href="https://drive.google.com/file/d/1-jH26pT5nI3EXfecXOb1hR67vL4DYF76/"
             className={style.a}
             rel="noopenner noreferrer"

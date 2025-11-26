@@ -60,6 +60,7 @@ export default function link() {
         <link rel="canonical" href="https://erizazg.my.id/link" />
       </Head>
       <Link/>
+      {/* <Footer/> */}
     </div>
   );
 }
