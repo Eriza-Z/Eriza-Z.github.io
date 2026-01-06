@@ -62,7 +62,7 @@ function Belajar() {
           Soal-Soal Mangkuk Mie Ayam
         </a>
         <a
-          href="https://drive.google.com/drive/u/2/folders/1XteahQcrhwTQmd3JQ-ZBNBxO-nckvFtB"
+          href="https://drive.google.com/drive/folders/1XteahQcrhwTQmd3JQ-ZBNBxO-nckvFtB"
           className={style.abelajar}
           rel="noopenner noreferrer"
         >
