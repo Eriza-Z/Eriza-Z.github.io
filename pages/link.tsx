@@ -5,7 +5,7 @@ import Link from "../Components/Page/Link"
 export default function link() {
   return (
     <div>
-      <Head>
+      <Head children={""}>
         {/* Web Property */}
         <title>ErZ - Link</title>
         <meta charSet="UTF-8" />

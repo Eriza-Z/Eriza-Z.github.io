@@ -27,3 +27,19 @@
   transform: translateY(-10px);
   background-color: #1863D6;
 }
+.abelajar{
+  padding: 24px;
+  margin: 12px 12px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  background: #050A30;
+  border-radius: 16px;
+  border: #161d19 groove;
+  transition: transform 0.5s ease-in-out 0.125s, background-color 0.5s ease-in-out 0.125s, color 0.5s ease-in-out 0.125s;
+}
+
+.abelajar:hover {
+  transform: translateY(-12px);
+  background-color: #1863D6;
+}
