@@ -1,6 +1,6 @@
 import Head from "next/head";
-import FooterBelajar from "../Components/Other/Footer-belajar";
-import Belajar from "../Components/Page/Belajar"
+import FooterBelajar from "../../Components/Other/Footer-belajar";
+import Belajar from "../../Components/Page/Belajar";
 
 export default function link() {
   return (
@@ -8,35 +8,6 @@ export default function link() {
       <Head>
         {/* Web Property */}
         <title>ErZ - Belajar</title>
-        <meta charSet="UTF-8" />
-        <meta
-          name="viewport"
-          content="width=device-width,minimum-scale=1,initial-scale=1"
-        />
-        <meta
-          name="keywords"
-          content="Eriza Zehezkiel, Eriza Z, ErZ, EZGS, ezgs"
-        />
-        <meta
-          name="description"
-          content="ErZ Link Belajar"
-        />
-        <meta name="author" content="ErZ" />
-        <link rel="icon" href="/favicon.ico" />
-        {/* OpenGraph */}
-        <meta property="og:site_name" content="ErZ" />
-        <meta property="og:title" content="ErZ" />
-        <meta property="og:type" content="website" />
-        <meta property="og:description" content="ErZ Webpage." />
-        <meta property="og:url" content="https://erizazg.my.id/belajar" />
-        <meta
-          property="og:image"
-          content="http://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
-        />
-        <meta
-          property="og:image:secure_url"
-          content="https://raw.githubusercontent.com/Eriza-Z/Eriza-Z.github.io/master/public/icon.jpg"
-        />
         <meta property="og:image:type" content="image/webp" />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
@@ -59,8 +30,8 @@ export default function link() {
         {/* Canonical */}
         <link rel="canonical" href="https://erizazg.my.id/belajar" />
       </Head>
-      <Belajar/>
-      <FooterBelajar/>
+      <Belajar />
+      <FooterBelajar />
     </div>
   );
 }

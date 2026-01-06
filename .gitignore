@@ -39,5 +39,8 @@ next-env.d.ts
 Arsip
 Archive
 
+# Production use only
+.vscode
+
 # Haven't ready yet
 blog
