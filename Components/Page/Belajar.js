@@ -34,6 +34,34 @@ function Belajar() {
           Nilai Prioritas
         </a>
         <a
+          href="https://snpmb.id/jadwal-penting"
+          className={style.abelajar}
+          rel="noopenner noreferrer"
+        >
+          Jadwal SNPMB(SNBP & SNBT)
+        </a>
+        <a
+          href="https://snpmb.id/unduhan"
+          className={style.abelajar}
+          rel="noopenner noreferrer"
+        >
+          Regulasi/Peraturan Seputar SNPMB(SNBP & SNBT)
+        </a>
+        <a
+          href="https://snpmb.id/utbk-snbt/daftar-ptn-snbt"
+          className={style.abelajar}
+          rel="noopenner noreferrer"
+        >
+          Daya Tampung SNBT
+        </a>
+        <a
+          href="https://snpmb.id/link-penting"
+          className={style.abelajar}
+          rel="noopenner noreferrer"
+        >
+          Link Penting Seputar SNPMB
+        </a>
+        <a
           href="https://snpmb.id/simulasi/"
           className={style.abelajar}
           rel="noopenner noreferrer"
