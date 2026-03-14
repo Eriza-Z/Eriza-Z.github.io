@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../../Components/Other/Footer";
-import Link from "../../Components/Page/Link"
+import Footer from "../Components/Other/Footer";
+import Link from "../Components/Page/Link"
 
 export default function link() {
   return (

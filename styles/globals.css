@@ -34,7 +34,14 @@ html {
 }
 
 body {
-  background-color: #071330;
+  background: #092a80;
+  background: linear-gradient(
+    136deg,
+    rgba(9, 42, 128, 0.76) 0%,
+    rgba(21, 60, 151, 0.64) 15%,
+    rgba(57, 111, 192, 1) 72%,
+    rgba(171, 201, 233, 1) 100%
+  );
   font-family: "Poppins", sans-serif;
   color: white;
   min-height: 100vh;

@@ -19,7 +19,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Personal Website of Eriza Zehezkiel Gracia Main Page"
+          content="Personal Website of Eriza Zehezkiel Gracia"
         />
         <meta name="author" content="Eriza Zehezkiel Gracia" />
         <link rel="icon" href="/favicon.ico" />

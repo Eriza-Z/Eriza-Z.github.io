@@ -33,15 +33,7 @@ function Depan() {
   }, []);
   return (
     <main className={styles.main}>
-      <div className="hero text-center mt-8 pt-2">
-        <Image
-          src="https://mergoreb.sirv.com/ErZ.webp?w=324&h=150&scale.option=noup&format=webp&q=100"
-          alt="ErZ"
-          className="Sirv lazy pt-2 pb-4"
-          id="HeroImage"
-          width={324}
-          height={150}
-        />
+      <div className="hero text-center xs:mt-24 mt-72 pt-2">
         <h1 className="animate__animated animate__lightSpeedInRight pb-2">
           Eriza Zehezkiel Gracia.
         </h1>

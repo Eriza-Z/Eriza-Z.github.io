@@ -49,16 +49,6 @@ function Link() {
           Steam
         </a>
       </div>
-      <h2 className="mt-2 mb-2.5">Others</h2>
-      <div className={style.button_area}>
-        <a
-          href="https://link.erizazg.my.id/Musik"
-          className={style.a}
-          rel="noopenner noreferrer"
-        >
-          Music Collection
-        </a>
-      </div>
     </div>
   );
 }
