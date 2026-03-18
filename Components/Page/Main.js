@@ -34,10 +34,10 @@ function Depan() {
   return (
     <main className={styles.main}>
       <div className="hero text-center xs:mt-24 mt-72 pt-2">
-        <h1 className="animate__animated animate__lightSpeedInRight pb-2">
+        <h1 className="pb-2">
           Eriza Zehezkiel Gracia.
         </h1>
-        <h2 className="animate__animated animate__lightSpeedInLeft pb-2">
+        <h2 className="pb-2">
           I&apos;m <span ref={el} id="Typed"></span>
         </h2>
         <p className="mt-4 pt-4 text-xl text-center font-bold">
