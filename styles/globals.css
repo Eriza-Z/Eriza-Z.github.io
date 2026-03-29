@@ -43,6 +43,7 @@ body {
     rgba(171, 201, 233, 1) 100%
   );
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
   color: white;
   min-height: 100vh;
   display: flex;

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../Components/Other/Footer";
 import Link from "../Components/Page/Link"
 
 export default function link() {
@@ -7,10 +6,9 @@ export default function link() {
     <div>
       <Head>
         {/* Web Property */}
-        <title>ErZ - Link</title>
+        <title>Link</title>
       </Head>
       <Link/>
-      {/* <Footer/> */}
     </div>
   );
 }

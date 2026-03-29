@@ -4,5 +4,4 @@ User-agent: psbot
 Disallow: /
 User-agent: *
 Disallow: 
-Disallow: /about
-Disallow: /belajar
+Disallow: /Belajar

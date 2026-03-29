@@ -34,6 +34,13 @@ function Belajar() {
           Nilai Prioritas
         </a>
         <a
+          href="https://naufalacademy.com/dashboard/statistik?tab=snbt"
+          className={style.abelajar}
+          rel="noopenner noreferrer"
+        >
+          Prediksi Nilai UTBK & Cek Statistik Jurusan
+        </a>
+        <a
           href="https://snpmb.id/jadwal-penting"
           className={style.abelajar}
           rel="noopenner noreferrer"
